@@ -1,0 +1,4 @@
+opencv-python>=4.8
+numpy>=1.24
+av>=10.0
+rapidocr-onnxruntime>=1.3

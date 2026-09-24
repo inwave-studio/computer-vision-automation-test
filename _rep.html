@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>auto-play test report</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --line: #e5e7eb;
+  --head: #f6f7f9; --pass: #15803d; --fail: #b91c1c; --warn: #b45309;
+  --pass-bg: #eafaf0; --fail-bg: #fdeeee;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161a; --fg: #e8eaed; --muted: #9aa0a6; --line: #2b2f36;
+    --head: #1c1f25; --pass: #4ade80; --fail: #f87171; --warn: #fbbf24;
+    --pass-bg: #16261c; --fail-bg: #2a1a1a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 16px; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+main { max-width: 1040px; margin: 0 auto; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+.meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+.cards { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.card {
+  flex: 1 1 130px; border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 14px; background: var(--head);
+}
+.card b { display: block; font-size: 24px; font-weight: 650; line-height: 1.2; }
+.card span { color: var(--muted); font-size: 12px; text-transform: uppercase;
+  letter-spacing: .04em; }
+.card.pass b { color: var(--pass); }
+.card.fail b { color: var(--fail); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+th { background: var(--head); font-weight: 600; font-size: 12px;
+  text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.row-fail { background: var(--fail-bg); }
+tr.row-pass { background: var(--pass-bg); }
+.tag { font-weight: 650; font-size: 12px; letter-spacing: .03em; }
+.tag.PASSED { color: var(--pass); }
+.tag.FAILED, .tag.ERROR, .tag.TIMEOUT { color: var(--fail); }
+.detail { color: var(--warn); }
+details { margin-top: 6px; }
+summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+pre {
+  margin: 8px 0 0; padding: 12px; overflow-x: auto; border-radius: 8px;
+  background: var(--head); border: 1px solid var(--line);
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap; word-break: break-word;
+}
+@media (max-width: 640px) {
+  body { padding: 20px 12px; }
+  th, td { padding: 7px 6px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>auto-play test report</h1>
+  <p class="meta">Tests · 2026-09-24 13:48:58 · 55.6s total</p>
+  <div class="cards">
+    <div class="card"><b>1</b><span>testcases</span></div>
+    <div class="card pass"><b>0</b><span>passed</span></div>
+    <div class="card fail"><b>1</b><span>failed</span></div>
+  </div>
+  <table>
+    <thead><tr>
+      <th>Testcase</th><th>Status</th><th>Asserts</th><th>Skip</th><th>Time</th>
+    </tr></thead>
+    <tbody>
+      <tr class="row-fail"><td><code>test_playtut.py</code><div class="detail">TestFailure: tap() called with None - the element was never found</div><details><summary>console output</summary><pre>[  0.16s] session: starting testcase &#x27;test_playtut.py&#x27;
+[  0.35s] session: device 24650dee (1080x2400)
+[  1.53s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.53s] kill(com.amanotes.beathopper): force-stopping app
+[  1.88s] clear(com.amanotes.beathopper): clearing app storage
+[  2.50s] open(com.amanotes.beathopper): launching app
+[ 11.97s] find(&#x27;splash-screen&#x27;): 1 match(es) at (273, 616) (attempt 2/4)
+  PASS  test_playtut.py :: splash screen is shown
+[ 11.97s] waitUntil(allow notifications prompt): waiting (optional) up to 15000ms
+[ 13.90s] findText(&#x27;notifications?&#x27;): not found
+[ 14.64s] findText(&#x27;thông báo&#x27;): not found
+[ 16.15s] findText(&#x27;notifications?&#x27;): not found
+[ 17.09s] findText(&#x27;thông báo&#x27;): found &#x27;Cho phep Tiles Hop guri thong bao&#x27; at (273, 911)
+[ 17.09s] waitUntil(allow notifications prompt): satisfied after 2 check(s)
+[ 21.15s] findText(&#x27;ALLOW&#x27;): not found after 4 attempts
+[ 22.14s] findText(&#x27;Cho phép&#x27;): found &#x27;Cho phép&#x27; at (272, 1034)
+[ 22.14s] tap(text &#x27;Cho phép&#x27;): tapping (540,2068)  [995ms since frame]
+[ 22.29s] waitUntil(premium offer popup): waiting up to 10000ms
+[ 25.18s] find(&#x27;close-popup&#x27;): no match
+[ 28.44s] find(&#x27;close-popup&#x27;): 1 match(es) at (64, 110)
+[ 28.44s] waitUntil(premium offer popup): satisfied after 2 check(s)
+[ 28.44s] tap(1 element(s)): tapping (127,220)  [3007ms since frame]
+[ 29.11s] waitUntil(genre picker): waiting up to 10000ms
+[ 30.29s] findText(&#x27;POP&#x27;): not found
+[ 31.04s] findText(&#x27;POP&#x27;): not found
+[ 32.03s] findText(&#x27;POP&#x27;): found &#x27;POP&#x27; at (306, 759)
+[ 32.03s] waitUntil(genre picker): satisfied after 3 check(s)
+[ 32.03s] tap(text &#x27;POP&#x27;): tapping (608,1518)  [745ms since frame]
+[ 32.21s] waitUntil(Continue button): waiting up to 10000ms
+[ 32.96s] findText(&#x27;Continue&#x27;): not found
+[ 33.75s] findText(&#x27;Tiếp tục&#x27;): found &#x27;Tiep tuc&#x27; at (273, 926)
+[ 33.75s] waitUntil(Continue button): satisfied after 1 check(s)
+[ 33.75s] tap(text &#x27;Tiep tuc&#x27;): tapping (542,1852)  [794ms since frame]
+[ 33.91s] wait(100ms)
+[ 37.67s] findText(&#x27;Prefer not to say&#x27;): not found after 4 attempts
+[ 41.55s] findText(&#x27;Không trả lời&#x27;): not found after 4 attempts
+[ 41.55s] waitUntil(tutorial song screen): waiting up to 5000ms
+[ 42.41s] findText(&quot;Let&#x27;s play your first song&quot;): not found
+[ 43.28s] findText(&#x27;bài hát đầu tiên của bạn&#x27;): found &#x27;Hay phat bai hat dau tien cua ban&#x27; at (272, 339)
+[ 43.28s] waitUntil(tutorial song screen): satisfied after 1 check(s)
+  PASS  test_playtut.py :: tutorial song screen is shown
+[ 45.99s] find(&#x27;play-button&#x27;): 4 match(es) at (454, 448), (454, 566), (454, 684), (454, 802)
+  PASS  test_playtut.py :: at least 4 play buttons (found 4)
+[ 45.99s] tap(play-button): tapping (901,896)  [2707ms since frame]
+[ 46.14s] waitUntil(tutorial gameplay prepare): waiting up to 10000ms
+[ 49.25s] find(&#x27;tile-normal&#x27;): 1 match(es) at (289, 532)
+[ 49.25s] waitUntil(tutorial gameplay prepare): satisfied after 1 check(s)
+[ 49.25s] wait(100ms)
+[ 52.93s] find(&#x27;white-ball&#x27;): 1 match(es) at (272, 676)
+  PASS  test_playtut.py :: white ball is found
+[ 55.45s] findText(&#x27;Auto-play&#x27;): not found after 4 attempts
+Traceback (most recent call last):
+  File &quot;D:\Projects\AndroidAutoBot\Tests\test_playtut.py&quot;, line 90, in &lt;module&gt;
+    tap(findText(&quot;Auto-play&quot;))
+  File &quot;D:\Projects\AndroidAutoBot\autoplay\__init__.py&quot;, line 116, in tap
+    return session().tap(element)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;D:\Projects\AndroidAutoBot\autoplay\session.py&quot;, line 283, in tap
+    x, y = self._point_on_device(element, &quot;tap&quot;)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;D:\Projects\AndroidAutoBot\autoplay\session.py&quot;, line 335, in _point_on_device
+    x, y = self._resolve_point(element, method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;D:\Projects\AndroidAutoBot\autoplay\session.py&quot;, line 340, in _resolve_point
+    raise TestFailure(f&quot;{method}() called with None - the element was never found&quot;)
+autoplay.session.TestFailure: tap() called with None - the element was never found
+
+TESTCASE test_playtut.py: FAILED  (4/5 assertions passed)
+  aborted: TestFailure: tap() called with None - the element was never found</pre></details></td><td><span class="tag FAILED">FAILED</span></td><td class="num">4/5</td><td class="num">-</td><td class="num">55.6s</td></tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>
