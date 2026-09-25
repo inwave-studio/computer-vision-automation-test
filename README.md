@@ -4,6 +4,8 @@ Android UI test SDK. Testcases are plain Python scripts that drive a real
 device over ADB: the screen arrives as a live video stream (scrcpy), OpenCV
 locates UI elements by image pattern, and OCR reads on-screen text.
 
+[![Demo a simple smoke testcase](https://www.youtube.com/watch?v=VIDEO_ID)](https://drive.google.com/file/d/1VbJ4kMP3iSpz3RmhLGCsFFUtZv1ifYO9/view?usp=drive_link)
+
 ## Install
 
 ```bash
