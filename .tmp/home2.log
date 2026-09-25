@@ -1,0 +1,165 @@
+[  0.17s] session: starting testcase 'test_home.py'
+[  0.34s] session: device 24650dee (1080x2400)
+[  1.64s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.64s] open(com.amanotes.beathopper): launching app
+[  4.34s] find('star-hud'): 1 match(es) at (175, 97)
+[  6.49s] find('settings-button'): 1 match(es) at (480, 102)
+[  7.89s] find('event-close'): 1 match(es) at (458, 250)
+[  8.06s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  8.13s] find('event-close'): 1 match(es) at (458, 250)
+[  8.13s] tap(1 element(s)): tapping (909,500)  [73ms since frame]
+[  8.27s] wait(2000ms)
+[ 10.47s] find('star-hud'): 1 match(es) at (175, 97)
+[ 10.55s] find('settings-button'): 1 match(es) at (480, 102)
+[ 11.83s] find('event-close'): no match
+[ 11.83s] wait(1500ms)
+[ 13.40s] find('star-hud'): 1 match(es) at (175, 97)
+[ 13.49s] find('settings-button'): 1 match(es) at (480, 102)
+[ 15.02s] find('event-close'): no match
+[ 15.02s] wait(1500ms)
+[ 16.57s] find('star-hud'): 1 match(es) at (175, 97)
+[ 16.66s] find('settings-button'): 1 match(es) at (480, 102)
+[ 18.13s] find('event-close'): no match
+[ 18.13s] wait(1500ms)
+[ 19.69s] find('star-hud'): 1 match(es) at (175, 97)
+[ 19.77s] find('settings-button'): 1 match(es) at (480, 102)
+[ 21.20s] find('event-close'): no match
+[ 21.20s] wait(1500ms)
+[ 22.75s] find('star-hud'): 1 match(es) at (175, 97)
+[ 22.83s] find('settings-button'): 1 match(es) at (480, 102)
+[ 24.25s] find('event-close'): no match
+  PASS  test_home.py :: Mở app và vào được màn hình Home
+[ 27.00s] find('profile-button'): 1 match(es) at (62, 105)
+  PASS  test_home.py :: Home header: profile button hiển thị
+[ 27.05s] find('star-hud'): 1 match(es) at (175, 97)
+  PASS  test_home.py :: Home header: star HUD hiển thị
+[ 28.69s] find('gem-hud'): 1 match(es) at (315, 96)
+  PASS  test_home.py :: Home header: gem HUD hiển thị
+[ 30.06s] find('vip-button'): 1 match(es) at (272, 150)
+  PASS  test_home.py :: Home header: VIP button hiển thị
+[ 30.15s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_home.py :: Home header: Setting button hiển thị
+[ 33.07s] find('tab-shop'): 1 match(es) at (59, 1155)
+  PASS  test_home.py :: Home header: Shop tab hiển thị
+[ 35.75s] find('tab-ball'): 1 match(es) at (205, 1155)
+  PASS  test_home.py :: Home header: Ball tab hiển thị
+[ 38.71s] find('tab-discover'): 1 match(es) at (470, 1155)
+  PASS  test_home.py :: Home header: Discover tab hiển thị
+[ 38.77s] find('star-hud'): 1 match(es) at (175, 97)
+[ 40.36s] readText(4 element(s)): '0'
+[ 40.43s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 41.40s] readText(4 element(s)): '35 +'
+  PASS  test_home.py :: Star HUD đọc được số (=0)
+  PASS  test_home.py :: Gem HUD đọc được số (=35)
+[ 41.40s] kill(com.amanotes.beathopper): force-stopping app
+[ 41.68s] open(com.amanotes.beathopper): launching app
+[ 43.00s] open(com.amanotes.beathopper): launching app
+[ 44.08s] wait(3000ms)
+[ 48.07s] find('star-hud'): no match
+[ 48.22s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 49.15s] find('event-close'): no match
+[ 51.17s] find('close-popup'): no match
+[ 53.71s] find('panel-close'): no match
+[ 54.73s] find('panel-ok'): no match
+[ 58.86s] find('settings-close'): no match
+[ 64.28s] find('tab-home'): no match
+[ 66.13s] findText(['Trang chủ', 'Home']): not found
+[ 66.13s] wait(2000ms)
+[ 69.30s] find('star-hud'): no match
+[ 69.44s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 72.05s] find('event-close'): no match
+[ 77.71s] find('close-popup'): 1 match(es) at (64, 110)
+[ 77.71s] tap(1 element(s)): tapping (127,220)  [5662ms since frame]
+[ 77.89s] wait(2000ms)
+[ 80.11s] find('star-hud'): 1 match(es) at (175, 97)
+[ 80.25s] find('settings-button'): 1 match(es) at (480, 102)
+[ 82.80s] find('event-close'): no match
+[ 82.80s] wait(1500ms)
+[ 84.39s] find('star-hud'): 1 match(es) at (175, 97)
+[ 84.50s] find('settings-button'): 1 match(es) at (480, 102)
+[ 89.57s] find('event-close'): no match
+[ 89.57s] wait(1500ms)
+[ 91.24s] find('star-hud'): 1 match(es) at (175, 97)
+[ 91.50s] find('settings-button'): 1 match(es) at (480, 102)
+[ 95.37s] find('event-close'): no match
+[ 95.37s] wait(1500ms)
+[ 97.10s] find('star-hud'): 1 match(es) at (175, 97)
+[ 97.62s] find('settings-button'): 1 match(es) at (480, 102)
+[101.96s] find('event-close'): no match
+[101.96s] wait(1500ms)
+[103.56s] find('star-hud'): 1 match(es) at (175, 97)
+[103.67s] find('settings-button'): 1 match(es) at (480, 102)
+[106.10s] find('event-close'): no match
+  PASS  test_home.py :: Mở lại app sau khi kill
+[106.18s] find('star-hud'): 1 match(es) at (175, 97)
+[106.95s] readText(4 element(s)): '0'
+[107.04s] find('gem-hud'): 1 match(es) at (315, 96)
+[107.96s] readText(4 element(s)): '35 +'
+  PASS  test_home.py :: Star giữ nguyên sau khi kill app (0 -> 0)
+  PASS  test_home.py :: Gem giữ nguyên sau khi kill app (35 -> 35)
+[107.96s] waitUntil(songlist nạp xong): waiting (optional) up to 20000ms
+[111.17s] find('song-badge'): 5 match(es) at (87, 633), (87, 974), (87, 860), (87, 1087)...
+[111.17s] waitUntil(songlist nạp xong): satisfied after 1 check(s)
+[111.36s] find('song-badge'): 5 match(es) at (87, 633), (87, 974), (87, 860), (87, 1087)...
+  PASS  test_home.py :: Songlist hiển thị nhiều bài hát (thấy 5)
+  PASS  test_home.py :: Songlist xếp thành một cột dọc
+  PASS  test_home.py :: Các card cách đều nhau (gap 113-114px)
+[116.00s] find('song-ad-lock'): 2 match(es) at (453, 1088), (453, 975)
+  PASS  test_home.py :: Hiển thị đúng dạng lock song (2 bài khoá bởi ads)
+[117.86s] scrollVerticle(-60): scrolling down 60% of height  [1825ms since frame]
+[118.42s] wait(1200ms)
+[119.62s] scrollVerticle(-60): scrolling down 60% of height  [3588ms since frame]
+[120.19s] wait(1200ms)
+[121.44s] scrollVerticle(-60): scrolling down 60% of height  [5404ms since frame]
+[122.14s] wait(1200ms)
+[123.34s] scrollVerticle(-60): scrolling down 60% of height  [7312ms since frame]
+[123.91s] wait(1200ms)
+  FAIL  test_home.py :: Kéo tới cuối danh sách load thêm bài hát (0 mục mới)
+[126.94s] scrollVerticle(60): scrolling up 60% of height  [1798ms since frame]
+[127.49s] wait(400ms)
+[127.89s] scrollVerticle(60): scrolling up 60% of height  [2747ms since frame]
+[128.43s] wait(400ms)
+[128.83s] scrollVerticle(60): scrolling up 60% of height  [3685ms since frame]
+[129.39s] wait(400ms)
+[129.79s] scrollVerticle(60): scrolling up 60% of height  [4646ms since frame]
+[130.37s] wait(400ms)
+[130.77s] scrollVerticle(60): scrolling up 60% of height  [5630ms since frame]
+[131.32s] wait(400ms)
+[131.72s] scrollVerticle(60): scrolling up 60% of height  [6576ms since frame]
+[132.25s] wait(400ms)
+[132.65s] wait(1500ms)
+[134.28s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[136.69s] find('event-close'): no match
+[139.67s] find('close-popup'): no match
+[144.01s] find('settings-close'): no match
+  PASS  test_home.py :: Song info: đọc được thông tin trên card (44 dòng)
+[147.70s] find('song-badge'): 9 match(es) at (87, 721), (87, 153), (87, 1062), (87, 380)...
+[147.70s] tap(song-badge): tapping (173,1442)  [256ms since frame]
+[148.03s] wait(2000ms)
+[150.17s] find('song-badge'): 9 match(es) at (87, 153), (87, 1062), (87, 380), (87, 494)...
+  PASS  test_home.py :: Song preview: app phản hồi khi bấm vào bài hát
+[150.34s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[152.59s] find('event-close'): no match
+[155.94s] find('close-popup'): no match
+[160.65s] find('settings-close'): no match
+[160.77s] find('song-ad-lock'): 2 match(es) at (453, 381), (453, 609)
+[160.77s] tap(song-ad-lock): tapping (899,762)  [116ms since frame]
+[160.90s] wait(2500ms)
+[163.62s] isAdShowing(): ad on screen - TTRewardExpressVideoActivity
+[165.46s] findText(['không có', 'no ads', 'not available', 'thử lại']): not found
+  PASS  test_home.py :: Song unlock by Ads: hoặc chạy video, hoặc báo không có video
+[165.62s] closeAd(): TTRewardExpressVideoActivity up, waiting up to 90000ms for it to close
+  FAIL  closeAd() - still showing after 90000ms
+Traceback (most recent call last):
+  File "D:\Projects\AndroidAutoBot\.agent\Smoke\test_home.py", line 171, in <module>
+    closeAd()
+  File "D:\Projects\AndroidAutoBot\autoplay\__init__.py", line 159, in closeAd
+    return session().closeAd(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AndroidAutoBot\autoplay\session.py", line 636, in closeAd
+    raise TestFailure(f"closeAd() could not close the ad within {timeout}ms")
+autoplay.session.TestFailure: closeAd() could not close the ad within 90000ms
+[260.58s] aborted: TestFailure: closeAd() could not close the ad within 90000ms
+
+TESTCASE test_home.py: FAILED  (21/23 assertions passed)
+  aborted: TestFailure: closeAd() could not close the ad within 90000ms

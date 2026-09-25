@@ -431,8 +431,10 @@ class Session:
         w, h = self.device.width, self.device.height
         distance = int(h * percent_of_screen_height / 100.0)
         cx = w // 2
-        start_y = _clamp(h // 2 + distance // 2, 1, h - 2)
-        end_y = _clamp(start_y - distance, 1, h - 2)
+        # Centre the swipe on the screen. Negative distance must move the
+        # finger UP (start low, end high) so the content scrolls down.
+        start_y = _clamp(h // 2 - distance // 2, 1, h - 2)
+        end_y = _clamp(start_y + distance, 1, h - 2)
         direction = "down" if percent_of_screen_height < 0 else "up"
         step(
             f"scrollVerticle({percent_of_screen_height}): scrolling {direction} "

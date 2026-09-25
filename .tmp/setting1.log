@@ -1,0 +1,237 @@
+[  2.39s] session: starting testcase 'test_setting.py'
+[  2.53s] session: device 24650dee (1080x2400)
+[  3.73s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  3.73s] open(com.amanotes.beathopper): launching app
+[  6.48s] find('star-hud'): no match
+[  6.65s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  9.12s] find('close-popup'): no match
+[ 11.61s] find('panel-close'): no match
+[ 12.75s] find('panel-ok'): no match
+[ 15.47s] find('settings-close'): 1 match(es) at (61, 106)
+[ 15.47s] tap(1 element(s)): tapping (121,212)  [2711ms since frame]
+[ 15.60s] wait(2000ms)
+[ 19.84s] find('star-hud'): 1 match(es) at (175, 97)
+[ 21.95s] find('settings-button'): 1 match(es) at (480, 102)
+[ 21.95s] wait(1500ms)
+[ 23.50s] find('star-hud'): 1 match(es) at (175, 97)
+[ 23.59s] find('settings-button'): 1 match(es) at (480, 102)
+[ 23.59s] wait(1500ms)
+[ 25.14s] find('star-hud'): 1 match(es) at (175, 97)
+[ 25.23s] find('settings-button'): 1 match(es) at (480, 102)
+[ 25.23s] wait(1500ms)
+[ 26.80s] find('star-hud'): 1 match(es) at (175, 97)
+[ 26.88s] find('settings-button'): 1 match(es) at (480, 102)
+[ 26.88s] wait(1500ms)
+[ 28.44s] find('star-hud'): 1 match(es) at (175, 97)
+[ 28.53s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_setting.py :: Mở app và vào được màn hình Home
+[ 30.44s] find('settings-close'): no match
+[ 30.52s] find('settings-button'): 1 match(es) at (480, 102)
+[ 30.52s] tap(1 element(s)): tapping (953,204)  [83ms since frame]
+[ 30.67s] waitUntil(Setting): waiting (optional) up to 10000ms
+[ 32.59s] find('settings-close'): no match
+[ 32.90s] find('settings-close'): 1 match(es) at (61, 106)
+[ 32.90s] waitUntil(Setting): satisfied after 2 check(s)
+  PASS  test_setting.py :: Mở được màn hình Setting
+[ 35.01s] findText(['Cửa hàng', 'Shop']): found 'CUA HANG' at (255, 225)
+  PASS  test_setting.py :: Setting hiển thị dòng SHOP
+[ 35.76s] findText(['Cài đặt trò chơi', 'Game settings']): found 'CAI DAT TRO CHOI' at (289, 349)
+  PASS  test_setting.py :: Setting hiển thị dòng GAME SETTINGS
+[ 36.50s] findText(['Ngôn ngữ', 'Language']): found 'NGON NGU' at (256, 450)
+  PASS  test_setting.py :: Setting hiển thị dòng LANGUAGE
+[ 37.19s] findText(['Đánh giá', 'Rate us']): found 'DANH GIA' at (252, 563)
+  PASS  test_setting.py :: Setting hiển thị dòng RATE US
+[ 37.96s] findText(['Hướng dẫn', 'How to play']): found 'HUONG DAN' at (263, 674)
+  PASS  test_setting.py :: Setting hiển thị dòng HOW TO PLAY
+[ 38.73s] findText(['Chính sách', 'Policy', 'Privacy']): found 'CHiNH SACH BAO MAT' at (309, 800)
+  PASS  test_setting.py :: Setting hiển thị dòng POLICY
+[ 39.45s] findText(['Giới thiệu', 'Credit', 'About']): found 'GIOI THIEU' at (257, 901)
+  PASS  test_setting.py :: Setting hiển thị dòng CREDIT
+[ 40.13s] findText(['Giới thiệu', 'Credit', 'About']): found 'GIOI THIEU' at (257, 901)
+[ 40.90s] readText(4 element(s)): 'GIOI THIEU v99.99.1(824_0nlyPass)'
+  PASS  test_setting.py :: Setting - CREDIT hiển thị version ('GIOI THIEU v99.99.1(824_0nlyPass)')
+[ 40.98s] find('settings-close'): 1 match(es) at (61, 106)
+[ 43.42s] find('panel-close'): no match
+[ 44.51s] find('panel-ok'): no match
+[ 46.95s] find('close-popup'): no match
+[ 47.02s] find('settings-close'): 1 match(es) at (61, 106)
+[ 47.75s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 47.82s] find('settings-close'): 1 match(es) at (61, 106)
+[ 48.52s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 50.94s] find('panel-close'): no match
+[ 52.05s] find('panel-ok'): no match
+[ 54.85s] find('close-popup'): no match
+[ 55.57s] findText(['Cửa hàng', 'Shop']): found 'CUA HANG' at (255, 225)
+[ 55.57s] tap(text 'CUA HANG'): tapping (506,450)  [724ms since frame]
+[ 55.71s] wait(2500ms)
+[ 59.83s] findText(['GEM PACKS', 'kim cương', 'DAILY DEALS']): found '2,000 kim cuong' at (106, 1138)
+  PASS  test_setting.py :: Setting - SHOP mở màn hình shop IAP
+[ 62.31s] find('close-popup'): 1 match(es) at (50, 65)
+[ 62.31s] tap(1 element(s)): tapping (99,130)  [2480ms since frame]
+[ 62.44s] wait(1500ms)
+[ 64.01s] find('settings-close'): 1 match(es) at (61, 106)
+[ 66.69s] find('panel-close'): no match
+[ 67.97s] find('panel-ok'): no match
+[ 70.14s] find('close-popup'): no match
+[ 70.21s] find('settings-close'): 1 match(es) at (61, 106)
+[ 70.96s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 71.03s] find('settings-close'): 1 match(es) at (61, 106)
+[ 71.82s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 74.31s] find('panel-close'): no match
+[ 75.41s] find('panel-ok'): no match
+[ 77.53s] find('close-popup'): no match
+[ 78.26s] findText(['Cài đặt trò chơi', 'Game settings']): found 'CAI DAT TRO CHOI' at (289, 349)
+[ 78.26s] tap(text 'CAI DAT TRO CHOI'): tapping (574,698)  [729ms since frame]
+[ 78.39s] waitUntil(Setting - GAME SETTINGS hiển thị cài đặt âm thanh/nhạc nền): waiting (optional) up to 6000ms
+[ 79.09s] findText(['Âm thanh', 'Nhạc', 'Sound', 'Music', 'SFX']): not found
+[ 80.07s] findText(['Âm thanh', 'Nhạc', 'Sound', 'Music', 'SFX']): found 'AM THANH' at (199, 417)
+[ 80.07s] waitUntil(Setting - GAME SETTINGS hiển thị cài đặt âm thanh/nhạc nền): satisfied after 2 check(s)
+  PASS  test_setting.py :: Setting - GAME SETTINGS hiển thị cài đặt âm thanh/nhạc nền
+[ 82.63s] find('panel-close'): no match
+[ 83.78s] find('panel-ok'): 1 match(es) at (272, 847)
+[ 83.78s] tap(1 element(s)): tapping (540,1694)  [1151ms since frame]
+[ 83.90s] wait(1200ms)
+[ 87.65s] find('panel-close'): no match
+[ 88.83s] find('panel-ok'): no match
+[ 90.97s] find('close-popup'): no match
+[ 91.04s] find('settings-close'): 1 match(es) at (61, 106)
+[ 91.70s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 91.77s] find('settings-close'): 1 match(es) at (61, 106)
+[ 92.48s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[ 94.92s] find('panel-close'): no match
+[ 96.04s] find('panel-ok'): no match
+[ 98.20s] find('close-popup'): no match
+[ 98.26s] find('settings-close'): 1 match(es) at (61, 106)
+[100.79s] find('panel-close'): no match
+[101.92s] find('panel-ok'): no match
+[104.04s] find('close-popup'): no match
+[104.10s] find('settings-close'): 1 match(es) at (61, 106)
+[104.96s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[105.03s] find('settings-close'): 1 match(es) at (61, 106)
+[105.80s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[108.43s] find('panel-close'): no match
+[109.54s] find('panel-ok'): no match
+[111.69s] find('close-popup'): no match
+[112.47s] findText(['Ngôn ngữ', 'Language']): found 'NGON NGU' at (256, 450)
+[112.47s] tap(text 'NGON NGU'): tapping (508,900)  [778ms since frame]
+[112.60s] waitUntil(Setting - LANGUAGE mở danh sách ngôn ngữ): waiting (optional) up to 6000ms
+[113.39s] findText(['Portugu', 'Deutsch', 'English']): not found
+[114.44s] findText(['Portugu', 'Deutsch', 'English']): found 'Portugues' at (272, 595)
+[114.44s] waitUntil(Setting - LANGUAGE mở danh sách ngôn ngữ): satisfied after 2 check(s)
+  PASS  test_setting.py :: Setting - LANGUAGE mở danh sách ngôn ngữ
+[117.19s] find('panel-close'): 1 match(es) at (272, 863)
+[117.19s] tap(1 element(s)): tapping (540,1726)  [2757ms since frame]
+[117.33s] wait(1200ms)
+[120.72s] find('panel-close'): no match
+[121.80s] find('panel-ok'): no match
+[123.86s] find('close-popup'): no match
+[123.92s] find('settings-close'): 1 match(es) at (61, 106)
+[124.62s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[124.70s] find('settings-close'): 1 match(es) at (61, 106)
+[125.41s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[127.61s] find('panel-close'): no match
+[128.69s] find('panel-ok'): no match
+[130.77s] find('close-popup'): no match
+[130.83s] find('settings-close'): 1 match(es) at (61, 106)
+[133.01s] find('panel-close'): no match
+[134.10s] find('panel-ok'): no match
+[136.18s] find('close-popup'): no match
+[136.24s] find('settings-close'): 1 match(es) at (61, 106)
+[136.97s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[137.04s] find('settings-close'): 1 match(es) at (61, 106)
+[137.76s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[139.96s] find('panel-close'): no match
+[141.05s] find('panel-ok'): no match
+[143.28s] find('close-popup'): no match
+[144.18s] findText(['Hướng dẫn', 'How to play']): found 'HUONG DAN' at (263, 674)
+[144.18s] tap(text 'HUONG DAN'): tapping (522,1348)  [905ms since frame]
+[144.33s] waitUntil(Setting - HOW TO PLAY hiển thị popup hướng dẫn): waiting (optional) up to 6000ms
+[145.20s] findText(['Hướng dẫn chơi', 'Giữ và kéo', 'điều khiển']): not found
+[146.14s] findText(['Hướng dẫn chơi', 'Giữ và kéo', 'điều khiển']): found 'HUONG DAN CHOI' at (272, 100)
+[146.14s] waitUntil(Setting - HOW TO PLAY hiển thị popup hướng dẫn): satisfied after 2 check(s)
+  PASS  test_setting.py :: Setting - HOW TO PLAY hiển thị popup hướng dẫn
+[148.47s] find('panel-close'): no match
+[149.46s] find('panel-ok'): no match
+[151.58s] find('close-popup'): no match
+[151.65s] find('settings-close'): 1 match(es) at (61, 106)
+[152.34s] findText(['Cấu hình', 'Settings']): not found
+[152.41s] find('settings-close'): 1 match(es) at (61, 106)
+[152.41s] tap(1 element(s)): tapping (121,212)  [68ms since frame]
+[152.55s] wait(1200ms)
+[156.08s] find('panel-close'): no match
+[157.19s] find('panel-ok'): no match
+[159.36s] find('close-popup'): no match
+[159.43s] find('settings-close'): 1 match(es) at (61, 106)
+[160.20s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[160.27s] find('settings-close'): 1 match(es) at (61, 106)
+[161.04s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[163.35s] find('panel-close'): no match
+[164.56s] find('panel-ok'): no match
+[166.74s] find('close-popup'): no match
+[166.82s] find('settings-close'): 1 match(es) at (61, 106)
+[169.17s] find('panel-close'): no match
+[170.32s] find('panel-ok'): no match
+[172.58s] find('close-popup'): no match
+[172.65s] find('settings-close'): 1 match(es) at (61, 106)
+[173.41s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[173.50s] find('settings-close'): 1 match(es) at (61, 106)
+[174.55s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[176.89s] find('panel-close'): no match
+[178.03s] find('panel-ok'): no match
+[180.21s] find('close-popup'): no match
+[180.95s] findText(['Đánh giá', 'Rate us']): found 'DANH GIA' at (252, 563)
+[180.95s] tap(text 'DANH GIA'): tapping (500,1126)  [743ms since frame]
+[181.09s] wait(3500ms)
+  FAIL  test_setting.py :: Setting - RATE US chuyển sang store (com.amanotes.beathopper)
+[187.08s] find('panel-close'): no match
+[188.40s] find('panel-ok'): no match
+[190.75s] find('close-popup'): no match
+[190.82s] find('settings-close'): 1 match(es) at (61, 106)
+[191.64s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[191.72s] find('settings-close'): 1 match(es) at (61, 106)
+[192.63s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[195.07s] find('panel-close'): no match
+[196.25s] find('panel-ok'): no match
+[198.51s] find('close-popup'): no match
+[198.57s] find('settings-close'): 1 match(es) at (61, 106)
+[201.11s] find('panel-close'): no match
+[202.36s] find('panel-ok'): no match
+[204.84s] find('close-popup'): no match
+[204.91s] find('settings-close'): 1 match(es) at (61, 106)
+[205.74s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[205.81s] find('settings-close'): 1 match(es) at (61, 106)
+[206.57s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[209.04s] find('panel-close'): no match
+[210.29s] find('panel-ok'): no match
+[212.64s] find('close-popup'): no match
+[213.36s] findText(['Chính sách', 'Policy', 'Privacy']): found 'CHiNH SACH BAO MAT' at (309, 800)
+[213.36s] tap(text 'CHiNH SACH BAO MAT'): tapping (613,1600)  [722ms since frame]
+[213.50s] wait(3500ms)
+  PASS  test_setting.py :: Setting - POLICY mở trang web (com.coccoc.trinhduyet)
+[217.47s] wait(2500ms)
+[220.16s] wait(1000ms)
+[224.26s] find('panel-close'): no match
+[225.73s] find('panel-ok'): no match
+[228.72s] find('close-popup'): no match
+[228.80s] find('settings-close'): 1 match(es) at (61, 106)
+[229.62s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[229.71s] find('settings-close'): 1 match(es) at (61, 106)
+[230.54s] findText(['Cấu hình', 'Settings']): found 'Cau hinh' at (272, 123)
+[233.11s] find('panel-close'): no match
+[234.45s] find('panel-ok'): no match
+[237.23s] find('close-popup'): no match
+[237.30s] find('settings-close'): 1 match(es) at (61, 106)
+[237.30s] tap(1 element(s)): tapping (121,212)  [73ms since frame]
+[237.42s] wait(1500ms)
+[239.24s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[241.91s] find('close-popup'): no match
+[244.18s] find('settings-close'): no match
+[244.25s] find('star-hud'): 1 match(es) at (175, 97)
+[244.33s] find('settings-button'): 1 match(es) at (480, 102)
+[244.33s] waitUntil(home HUD): waiting (optional) up to 10000ms
+[244.40s] find('star-hud'): 1 match(es) at (175, 97)
+[244.49s] find('settings-button'): 1 match(es) at (480, 102)
+[244.49s] waitUntil(home HUD): satisfied after 1 check(s)
+  PASS  test_setting.py :: Kết thúc: quay về được Home
+
+TESTCASE test_setting.py: FAILED  (16/17 assertions passed)

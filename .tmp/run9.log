@@ -1,0 +1,83 @@
+[  0.15s] session: starting testcase 'test_general.py'
+[  0.31s] session: device 24650dee (1080x2400)
+[  1.47s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.47s] open(com.amanotes.beathopper): launching app
+[  3.55s] find('star-hud'): 1 match(es) at (128, 97)
+[  5.41s] find('settings-button'): no match
+[  5.57s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  7.93s] find('close-popup'): no match
+[ 10.52s] find('panel-close'): no match
+[ 12.96s] find('settings-close'): no match
+[ 14.97s] find('home-tab'): 1 match(es) at (206, 1151)
+[ 14.97s] tap(1 element(s)): tapping (409,2302)  [2005ms since frame]
+[ 15.09s] wait(2000ms)
+[ 17.14s] find('star-hud'): 1 match(es) at (128, 97)
+[ 19.05s] find('settings-button'): no match
+[ 19.21s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 21.54s] find('close-popup'): no match
+[ 24.10s] find('panel-close'): no match
+[ 26.52s] find('settings-close'): no match
+[ 26.56s] find('home-tab'): 1 match(es) at (206, 1151)
+[ 26.56s] tap(1 element(s)): tapping (409,2302)  [48ms since frame]
+[ 26.69s] wait(2000ms)
+[ 28.74s] find('star-hud'): 1 match(es) at (128, 97)
+[ 30.55s] find('settings-button'): no match
+[ 30.70s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 33.04s] find('close-popup'): no match
+[ 35.65s] find('panel-close'): no match
+[ 37.99s] find('settings-close'): no match
+[ 38.04s] find('home-tab'): 1 match(es) at (206, 1151)
+[ 38.04s] tap(1 element(s)): tapping (409,2302)  [47ms since frame]
+[ 38.15s] wait(2000ms)
+[ 40.20s] find('star-hud'): 1 match(es) at (128, 97)
+[ 42.09s] find('settings-button'): no match
+[ 42.24s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 44.63s] find('close-popup'): no match
+[ 47.18s] find('panel-close'): no match
+[ 49.55s] find('settings-close'): no match
+[ 49.59s] find('home-tab'): 1 match(es) at (206, 1151)
+[ 49.59s] tap(1 element(s)): tapping (409,2302)  [48ms since frame]
+[ 49.74s] wait(2000ms)
+[ 51.78s] find('star-hud'): 1 match(es) at (128, 97)
+[ 53.62s] find('settings-button'): no match
+[ 53.75s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 56.10s] find('close-popup'): no match
+[ 58.65s] find('panel-close'): no match
+[ 61.02s] find('settings-close'): no match
+[ 61.07s] find('home-tab'): 1 match(es) at (206, 1151)
+[ 61.07s] tap(1 element(s)): tapping (409,2302)  [48ms since frame]
+[ 61.19s] wait(2000ms)
+[ 63.24s] find('star-hud'): 1 match(es) at (128, 97)
+[ 65.07s] find('settings-button'): no match
+  FAIL  test_general.py :: M? app và vào ???c màn hình Home
+[ 67.81s] find('profile-button'): 1 match(es) at (62, 105)
+  PASS  test_general.py :: Home header: profile button hi?n th?
+[ 67.87s] find('star-hud'): 1 match(es) at (128, 97)
+  PASS  test_general.py :: Home header: star HUD hi?n th?
+[ 69.44s] find('gem-hud'): 1 match(es) at (268, 96)
+  PASS  test_general.py :: Home header: gem HUD hi?n th?
+[ 70.79s] find('vip-button'): 1 match(es) at (408, 100)
+  PASS  test_general.py :: Home header: VIP button hi?n th?
+[ 73.43s] find('vip-mission'): 1 match(es) at (68, 718)
+  PASS  test_general.py :: Home header: VIP mission hi?n th?
+[ 81.18s] find('settings-button'): no match after 4 attempts
+  FAIL  test_general.py :: Home header: Setting button hi?n th?
+[ 83.92s] find('tab-shop'): 1 match(es) at (59, 1155)
+  PASS  test_general.py :: Home header: Shop tab hi?n th?
+[ 86.46s] find('tab-ball'): 1 match(es) at (73, 707)
+  PASS  test_general.py :: Home header: Ball tab hi?n th?
+[ 89.16s] find('tab-discover'): 1 match(es) at (470, 1155)
+  PASS  test_general.py :: Home header: Discover tab hi?n th?
+[ 89.21s] find('star-hud'): 1 match(es) at (128, 97)
+[ 90.50s] readText(4 element(s)): '0'
+[ 90.58s] find('gem-hud'): 1 match(es) at (268, 96)
+[ 91.32s] readText(4 element(s)): '35 +'
+  PASS  test_general.py :: Star HUD ??c ???c s? (=0)
+  PASS  test_general.py :: Gem HUD ??c ???c s? (=35)
+[ 91.33s] kill(com.amanotes.beathopper): force-stopping app
+[ 91.64s] open(com.amanotes.beathopper): launching app
+[ 93.22s] find('star-hud'): no match
+[ 93.46s] isAdShowing(): no ad (unknown in front)
+[ 95.44s] find('close-popup'): no match
+[ 98.05s] find('panel-close'): no match
+[100.03s] find('settings-close'): no match

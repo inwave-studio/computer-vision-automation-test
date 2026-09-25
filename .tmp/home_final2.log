@@ -1,0 +1,212 @@
+[  0.16s] session: starting testcase 'test_home.py'
+[  0.36s] session: device 24650dee (1080x2400)
+[  1.64s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.64s] open(com.amanotes.beathopper): launching app
+[  4.73s] find('star-hud'): 1 match(es) at (175, 97)
+[  7.23s] find('settings-button'): 1 match(es) at (480, 102)
+[  8.73s] find('event-close'): no match
+[  8.73s] wait(1500ms)
+[ 10.29s] find('star-hud'): 1 match(es) at (175, 97)
+[ 10.37s] find('settings-button'): 1 match(es) at (480, 102)
+[ 11.74s] find('event-close'): no match
+[ 11.74s] wait(1500ms)
+[ 13.29s] find('star-hud'): 1 match(es) at (175, 97)
+[ 13.38s] find('settings-button'): 1 match(es) at (480, 102)
+[ 14.39s] find('event-close'): no match
+[ 14.39s] wait(1500ms)
+[ 15.94s] find('star-hud'): 1 match(es) at (175, 97)
+[ 16.03s] find('settings-button'): 1 match(es) at (480, 102)
+[ 17.42s] find('event-close'): no match
+[ 17.42s] wait(1500ms)
+[ 18.98s] find('star-hud'): 1 match(es) at (175, 97)
+[ 19.07s] find('settings-button'): 1 match(es) at (480, 102)
+[ 20.48s] find('event-close'): no match
+  PASS  test_home.py :: Mở app và vào được màn hình Home
+[ 23.32s] find('profile-button'): 1 match(es) at (62, 105)
+  PASS  test_home.py :: Home header: profile button hiển thị
+[ 23.38s] find('star-hud'): 1 match(es) at (175, 97)
+  PASS  test_home.py :: Home header: star HUD hiển thị
+[ 24.97s] find('gem-hud'): 1 match(es) at (315, 96)
+  PASS  test_home.py :: Home header: gem HUD hiển thị
+[ 26.34s] find('vip-button'): 1 match(es) at (272, 150)
+  PASS  test_home.py :: Home header: VIP button hiển thị
+[ 26.43s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_home.py :: Home header: Setting button hiển thị
+[ 29.35s] find('tab-shop'): 1 match(es) at (59, 1155)
+  PASS  test_home.py :: Home header: Shop tab hiển thị
+[ 31.97s] find('tab-ball'): 1 match(es) at (205, 1155)
+  PASS  test_home.py :: Home header: Ball tab hiển thị
+[ 34.87s] find('tab-discover'): 1 match(es) at (470, 1155)
+  PASS  test_home.py :: Home header: Discover tab hiển thị
+[ 34.92s] find('star-hud'): 1 match(es) at (175, 97)
+[ 36.53s] readText(4 element(s)): '0'
+[ 36.60s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 37.56s] readText(4 element(s)): '35 +'
+  PASS  test_home.py :: Star HUD đọc được số (=0)
+  PASS  test_home.py :: Gem HUD đọc được số (=35)
+[ 37.56s] kill(com.amanotes.beathopper): force-stopping app
+[ 37.88s] open(com.amanotes.beathopper): launching app
+[ 39.13s] open(com.amanotes.beathopper): launching app
+[ 40.40s] wait(3000ms)
+[ 44.56s] find('star-hud'): no match
+[ 44.73s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 45.71s] find('event-close'): no match
+[ 47.68s] find('close-popup'): no match
+[ 50.75s] find('panel-close'): no match
+[ 51.89s] find('panel-ok'): no match
+[ 53.98s] find('settings-close'): no match
+[ 57.27s] find('tab-home'): no match
+[ 58.34s] findText(['Trang chủ', 'Home']): not found
+[ 58.34s] wait(2000ms)
+[ 61.33s] find('star-hud'): no match
+[ 61.49s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 62.52s] find('event-close'): no match
+[ 65.18s] find('close-popup'): 1 match(es) at (64, 110)
+[ 65.18s] tap(1 element(s)): tapping (127,220)  [2661ms since frame]
+[ 65.34s] wait(2000ms)
+[ 67.64s] find('star-hud'): 1 match(es) at (175, 97)
+[ 67.72s] find('settings-button'): 1 match(es) at (480, 102)
+[ 69.10s] find('event-close'): no match
+[ 69.10s] wait(1500ms)
+[ 70.65s] find('star-hud'): 1 match(es) at (175, 97)
+[ 70.74s] find('settings-button'): 1 match(es) at (480, 102)
+[ 72.15s] find('event-close'): no match
+[ 72.15s] wait(1500ms)
+[ 73.71s] find('star-hud'): 1 match(es) at (175, 97)
+[ 73.79s] find('settings-button'): 1 match(es) at (480, 102)
+[ 74.83s] find('event-close'): no match
+[ 74.83s] wait(1500ms)
+[ 76.39s] find('star-hud'): 1 match(es) at (175, 97)
+[ 76.47s] find('settings-button'): 1 match(es) at (480, 102)
+[ 77.86s] find('event-close'): no match
+[ 77.86s] wait(1500ms)
+[ 79.42s] find('star-hud'): 1 match(es) at (175, 97)
+[ 79.50s] find('settings-button'): 1 match(es) at (480, 102)
+[ 80.87s] find('event-close'): no match
+  PASS  test_home.py :: Mở lại app sau khi kill
+[ 80.92s] find('star-hud'): 1 match(es) at (175, 97)
+[ 81.59s] readText(4 element(s)): '0'
+[ 81.67s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 82.33s] readText(4 element(s)): '35 +'
+  PASS  test_home.py :: Star giữ nguyên sau khi kill app (0 -> 0)
+  PASS  test_home.py :: Gem giữ nguyên sau khi kill app (35 -> 35)
+[ 82.33s] waitUntil(songlist nạp xong): waiting (optional) up to 20000ms
+[ 84.34s] find('song-badge'): 5 match(es) at (87, 633), (87, 974), (87, 860), (87, 747)...
+[ 84.34s] waitUntil(songlist nạp xong): satisfied after 1 check(s)
+[ 84.40s] find('song-badge'): 5 match(es) at (87, 633), (87, 974), (87, 860), (87, 747)...
+  PASS  test_home.py :: Songlist hiển thị nhiều bài hát (thấy 5)
+  PASS  test_home.py :: Songlist xếp thành một cột dọc
+  PASS  test_home.py :: Các card cách đều nhau (gap 113-114px)
+[ 86.38s] find('song-ad-lock'): 1 match(es) at (454, 976)
+  PASS  test_home.py :: Hiển thị đúng dạng lock song (1 bài khoá bởi ads)
+[ 87.31s] scrollVerticle(-60): scrolling down 60% of height  [915ms since frame]
+[ 87.84s] wait(1200ms)
+[ 89.04s] scrollVerticle(-60): scrolling down 60% of height  [2646ms since frame]
+[ 89.58s] wait(1200ms)
+[ 90.78s] scrollVerticle(-60): scrolling down 60% of height  [4387ms since frame]
+[ 91.33s] wait(1200ms)
+[ 92.53s] scrollVerticle(-60): scrolling down 60% of height  [6133ms since frame]
+[ 93.07s] wait(1200ms)
+  PASS  test_home.py :: Kéo tới cuối danh sách load thêm bài hát (24 mục mới)
+[ 95.86s] scrollVerticle(60): scrolling up 60% of height  [1577ms since frame]
+[ 96.40s] wait(600ms)
+[ 98.50s] find('star-hud'): no match
+[ 98.50s] scrollVerticle(60): scrolling up 60% of height  [1502ms since frame]
+[ 99.03s] wait(600ms)
+[101.05s] find('star-hud'): no match
+[101.05s] scrollVerticle(60): scrolling up 60% of height  [1416ms since frame]
+[101.61s] wait(600ms)
+[103.62s] find('star-hud'): no match
+[103.62s] scrollVerticle(60): scrolling up 60% of height  [1411ms since frame]
+[104.13s] wait(600ms)
+[105.73s] find('star-hud'): 2 match(es) at (314, 155), (269, 155)
+[105.81s] find('settings-button'): 1 match(es) at (480, 102)
+[107.28s] find('event-close'): no match
+[107.28s] wait(1000ms)
+[108.48s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[109.89s] find('event-close'): no match
+[111.66s] find('close-popup'): no match
+[114.08s] find('settings-close'): no match
+  PASS  test_home.py :: Song info: đọc được thông tin trên card (26 dòng)
+[115.24s] find('song-badge'): 5 match(es) at (87, 633), (87, 974), (87, 860), (87, 747)...
+[115.24s] tap(song-badge): tapping (173,1266)  [67ms since frame]
+[115.38s] wait(2000ms)
+[117.44s] find('song-badge'): 5 match(es) at (87, 974), (87, 860), (87, 747), (87, 1087)...
+  PASS  test_home.py :: Song preview: app phản hồi khi bấm vào bài hát
+[117.60s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[119.04s] find('event-close'): no match
+[121.17s] find('close-popup'): no match
+[123.38s] find('settings-close'): no match
+[123.43s] find('song-ad-lock'): 1 match(es) at (454, 976)
+[123.43s] tap(song-ad-lock): tapping (901,1952)  [55ms since frame]
+[123.53s] wait(2500ms)
+[126.26s] isAdShowing(): ad on screen - TTRewardExpressVideoActivity
+[127.02s] findText(['không có', 'no ads', 'not available', 'thử lại']): not found
+  PASS  test_home.py :: Song unlock by Ads: hoặc chạy video, hoặc báo không có video
+[127.39s] closeAd(): TTRewardExpressVideoActivity up, waiting up to 90000ms for it to close
+[163.84s] closeAd(): tapping close control at (498, 99)  [1619ms since frame]
+[165.09s] closeAd(): tapping close control at (498, 99)  [53ms since frame]
+[166.37s] closeAd(): ad closed after 2 tap(s)
+[166.37s] wait(1000ms)
+  SKIP  Song unlock by diamond - cần đúng số dư tại thời điểm test
+  SKIP  Gem/Star thay đổi sau khi chơi - cần hoàn thành một bài hát
+[167.62s] open(com.amanotes.beathopper): launching app
+[168.12s] wait(3000ms)
+[171.27s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[172.60s] find('event-close'): no match
+[174.71s] find('close-popup'): no match
+[177.21s] find('settings-close'): no match
+[177.91s] find('star-hud'): no match
+[179.61s] find('btnAutoplayClose'): no match
+[182.95s] find('tab-home'): no match
+[183.57s] findText(['Trang chủ', 'Home']): not found
+[183.57s] kill(com.amanotes.beathopper): force-stopping app
+[183.93s] open(com.amanotes.beathopper): launching app
+[185.06s] open(com.amanotes.beathopper): launching app
+[186.32s] wait(3000ms)
+[190.15s] find('star-hud'): no match
+[190.31s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[191.45s] find('event-close'): no match
+[193.27s] find('close-popup'): no match
+[195.84s] find('panel-close'): no match
+[196.70s] find('panel-ok'): no match
+[198.81s] find('settings-close'): no match
+[202.11s] find('tab-home'): no match
+[203.02s] findText(['Trang chủ', 'Home']): not found
+[203.02s] wait(2000ms)
+[205.96s] find('star-hud'): no match
+[206.17s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[207.17s] find('event-close'): no match
+[207.24s] find('close-popup'): 1 match(es) at (64, 110)
+[207.24s] tap(1 element(s)): tapping (127,220)  [67ms since frame]
+[207.37s] wait(2000ms)
+[209.68s] find('star-hud'): 2 match(es) at (175, 97), (314, 451)
+[209.77s] find('settings-button'): 1 match(es) at (480, 102)
+[211.16s] find('event-close'): no match
+[211.16s] wait(1500ms)
+[212.71s] find('star-hud'): 2 match(es) at (175, 97), (314, 451)
+[212.80s] find('settings-button'): 1 match(es) at (480, 102)
+[214.16s] find('event-close'): no match
+[214.16s] wait(1500ms)
+[215.71s] find('star-hud'): 2 match(es) at (175, 97), (314, 451)
+[215.79s] find('settings-button'): 1 match(es) at (480, 102)
+[217.14s] find('event-close'): no match
+[217.14s] wait(1500ms)
+[218.69s] find('star-hud'): 2 match(es) at (175, 97), (314, 451)
+[218.78s] find('settings-button'): 1 match(es) at (480, 102)
+[220.12s] find('event-close'): no match
+[220.12s] wait(1500ms)
+[221.68s] find('star-hud'): 3 match(es) at (175, 97), (314, 451), (269, 451)
+[221.76s] find('settings-button'): 1 match(es) at (480, 102)
+[223.12s] find('event-close'): no match
+[223.28s] find('star-hud'): 3 match(es) at (175, 97), (314, 451), (269, 451)
+[223.36s] find('settings-button'): 1 match(es) at (480, 102)
+[224.71s] find('event-close'): no match
+[224.71s] waitUntil(home HUD): waiting (optional) up to 10000ms
+[224.76s] find('star-hud'): 3 match(es) at (175, 97), (314, 451), (269, 451)
+[224.84s] find('settings-button'): 1 match(es) at (480, 102)
+[226.22s] find('event-close'): no match
+[226.22s] waitUntil(home HUD): satisfied after 1 check(s)
+  PASS  test_home.py :: Kết thúc: quay về được Home
+
+TESTCASE test_home.py: PASSED  (23/23 assertions passed, 2 optional step(s) skipped)

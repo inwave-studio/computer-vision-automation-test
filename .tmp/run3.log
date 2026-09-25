@@ -1,0 +1,129 @@
+[  0.17s] session: starting testcase 'test_general.py'
+[  0.31s] session: device 24650dee (1080x2400)
+[  1.61s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.61s] open(com.amanotes.beathopper): launching app
+[  4.15s] find('star-hud'): no match
+[  4.30s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  6.81s] find('close-popup'): 1 match(es) at (64, 110)
+[  6.81s] tap(1 element(s)): tapping (127,220)  [2510ms since frame]
+[  6.95s] wait(2000ms)
+[ 10.98s] find('star-hud'): 1 match(es) at (175, 97)
+[ 13.05s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_general.py :: M? app và vào ???c màn hình Home
+[ 15.74s] find('profile-button'): 1 match(es) at (62, 105)
+  PASS  test_general.py :: Home header: profile button hi?n th?
+[ 15.80s] find('star-hud'): 1 match(es) at (175, 97)
+  PASS  test_general.py :: Home header: star HUD hi?n th?
+[ 17.33s] find('gem-hud'): 1 match(es) at (315, 96)
+  PASS  test_general.py :: Home header: gem HUD hi?n th?
+[ 18.63s] find('vip-button'): 1 match(es) at (272, 150)
+  PASS  test_general.py :: Home header: VIP button hi?n th?
+[ 28.72s] find('vip-mission'): no match after 4 attempts
+  FAIL  test_general.py :: Home header: VIP mission hi?n th?
+[ 28.80s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_general.py :: Home header: Setting button hi?n th?
+[ 31.66s] find('tab-shop'): 1 match(es) at (59, 1155)
+  PASS  test_general.py :: Home header: Shop tab hi?n th?
+[ 34.19s] find('tab-ball'): 1 match(es) at (205, 1155)
+  PASS  test_general.py :: Home header: Ball tab hi?n th?
+[ 36.90s] find('tab-discover'): 1 match(es) at (470, 1155)
+  PASS  test_general.py :: Home header: Discover tab hi?n th?
+[ 36.96s] find('star-hud'): 1 match(es) at (175, 97)
+[ 38.90s] readText(4 element(s)): ''
+[ 38.96s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 40.57s] readText(4 element(s)): ''
+  FAIL  test_general.py :: Star HUD ??c ???c s? (=None)
+  FAIL  test_general.py :: Gem HUD ??c ???c s? (=None)
+[ 40.57s] kill(com.amanotes.beathopper): force-stopping app
+[ 40.88s] open(com.amanotes.beathopper): launching app
+[ 42.41s] find('star-hud'): no match
+[ 42.68s] isAdShowing(): no ad (unknown in front)
+[ 44.38s] find('close-popup'): no match
+[ 44.38s] wait(2000ms)
+[ 47.07s] find('star-hud'): no match
+[ 47.28s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 49.30s] find('close-popup'): no match
+[ 49.30s] wait(2000ms)
+[ 52.01s] find('star-hud'): no match
+[ 52.19s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 54.04s] find('close-popup'): no match
+[ 54.04s] wait(2000ms)
+[ 56.11s] find('star-hud'): 1 match(es) at (175, 97)
+[ 58.52s] find('settings-button'): no match
+[ 58.69s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 58.75s] find('close-popup'): 1 match(es) at (64, 110)
+[ 58.75s] tap(1 element(s)): tapping (127,220)  [67ms since frame]
+[ 58.90s] wait(2000ms)
+[ 60.95s] find('star-hud'): 1 match(es) at (175, 97)
+[ 61.04s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_general.py :: M? l?i app sau khi kill
+[ 61.09s] find('star-hud'): 1 match(es) at (175, 97)
+[ 62.25s] readText(4 element(s)): '0 3 +'
+[ 62.33s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 63.58s] readText(4 element(s)): '35 +'
+  FAIL  test_general.py :: Star gi? nguyên sau khi kill app (None -> 0)
+  FAIL  test_general.py :: Gem gi? nguyên sau khi kill app (None -> 35)
+[ 63.58s] waitUntil(songlist n?p xong): waiting (optional) up to 20000ms
+[ 65.48s] find('song-badge'): 5 match(es) at (87, 804), (87, 1031), (87, 918), (87, 690)...
+[ 65.48s] waitUntil(songlist n?p xong): satisfied after 1 check(s)
+[ 65.53s] find('song-badge'): 5 match(es) at (87, 804), (87, 1031), (87, 918), (87, 690)...
+  PASS  test_general.py :: Songlist hi?n th? nhi?u bài hát (th?y 5)
+  PASS  test_general.py :: Songlist x?p thành m?t c?t d?c
+  PASS  test_general.py :: Các card cách ??u nhau (gap 113-114px)
+[ 67.80s] find('song-ad-lock'): 3 match(es) at (453, 692), (453, 1032), (453, 919)
+  PASS  test_general.py :: Hi?n th? ?úng d?ng lock song (3 bài khoá b?i ads)
+[ 69.00s] scrollVerticle(-60): scrolling down 60% of height  [1173ms since frame]
+[ 69.58s] wait(1200ms)
+[ 70.78s] scrollVerticle(-60): scrolling down 60% of height  [2956ms since frame]
+[ 71.33s] wait(1200ms)
+[ 72.53s] scrollVerticle(-60): scrolling down 60% of height  [4698ms since frame]
+[ 73.07s] wait(1200ms)
+[ 74.27s] scrollVerticle(-60): scrolling down 60% of height  [6442ms since frame]
+[ 74.78s] wait(1200ms)
+  PASS  test_general.py :: Kéo t?i cu?i danh sách load thêm bài hát (3 m?c m?i)
+[ 77.07s] scrollVerticle(60): scrolling up 60% of height  [1061ms since frame]
+[ 77.61s] wait(400ms)
+[ 78.01s] scrollVerticle(60): scrolling up 60% of height  [2005ms since frame]
+[ 78.54s] wait(400ms)
+[ 78.94s] scrollVerticle(60): scrolling up 60% of height  [2936ms since frame]
+[ 79.48s] wait(400ms)
+[ 79.88s] scrollVerticle(60): scrolling up 60% of height  [3874ms since frame]
+[ 80.44s] wait(400ms)
+[ 80.84s] scrollVerticle(60): scrolling up 60% of height  [4831ms since frame]
+[ 81.37s] wait(400ms)
+[ 81.77s] scrollVerticle(60): scrolling up 60% of height  [5764ms since frame]
+[ 82.30s] wait(400ms)
+[ 82.70s] wait(1500ms)
+[ 84.36s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 86.40s] find('close-popup'): no match
+[ 88.80s] find('settings-close'): no match
+  PASS  test_general.py :: Song info: ??c ???c thông tin trên card (47 dòng)
+[ 90.10s] find('song-badge'): 9 match(es) at (87, 117), (87, 1026), (87, 685), (87, 458)...
+[ 90.10s] tap(song-badge): tapping (173,234)  [63ms since frame]
+[ 90.23s] wait(2000ms)
+[ 92.28s] find('song-badge'): 9 match(es) at (87, 1026), (87, 685), (87, 458), (87, 799)...
+  PASS  test_general.py :: Song preview: app ph?n h?i khi b?m vào bài hát
+[ 92.43s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 94.47s] find('close-popup'): no match
+[ 96.84s] find('settings-close'): no match
+[ 96.91s] find('song-ad-lock'): 5 match(es) at (453, 686), (453, 800), (453, 118), (453, 345)...
+[ 96.91s] tap(song-ad-lock): tapping (899,1372)  [62ms since frame]
+[ 97.02s] wait(2500ms)
+[ 99.71s] isAdShowing(): ad on screen - TTRewardExpressVideoActivity
+[101.25s] findText(['không có', 'no ads', 'not available', 'th? l?i']): not found
+  PASS  test_general.py :: Song unlock by Ads: ho?c ch?y video, ho?c báo không có video
+[101.41s] closeAd(): TTRewardExpressVideoActivity up, waiting up to 90000ms for it to close
+  FAIL  closeAd() - still showing after 90000ms
+Traceback (most recent call last):
+  File "D:\Projects\AndroidAutoBot\.agent\Smoke\test_general.py", line 290, in <module>
+    closeAd()
+  File "D:\Projects\AndroidAutoBot\autoplay\__init__.py", line 159, in closeAd
+    return session().closeAd(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AndroidAutoBot\autoplay\session.py", line 636, in closeAd
+    raise TestFailure(f"closeAd() could not close the ad within {timeout}ms")
+autoplay.session.TestFailure: closeAd() could not close the ad within 90000ms
+[194.86s] aborted: TestFailure: closeAd() could not close the ad within 90000ms
+
+TESTCASE test_general.py: FAILED  (18/24 assertions passed)
+  aborted: TestFailure: closeAd() could not close the ad within 90000ms

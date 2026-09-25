@@ -1,0 +1,35 @@
+[  0.16s] session: starting testcase 'test_general.py'
+[  0.32s] session: device 24650dee (1080x2400)
+[  1.50s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.50s] open(com.amanotes.beathopper): launching app
+[  3.69s] find('star-hud'): 1 match(es) at (128, 97)
+[  5.63s] find('settings-button'): no match
+[  5.78s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  8.31s] find('close-popup'): no match
+[ 11.07s] find('panel-close'): no match
+[ 13.69s] find('settings-close'): no match
+[ 13.69s] wait(2000ms)
+[ 15.75s] find('star-hud'): 1 match(es) at (128, 97)
+[ 17.86s] find('settings-button'): no match
+[ 18.02s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 20.78s] find('close-popup'): no match
+[ 23.54s] find('panel-close'): no match
+[ 26.03s] find('settings-close'): no match
+[ 26.03s] wait(2000ms)
+[ 28.08s] find('star-hud'): 1 match(es) at (128, 97)
+[ 30.02s] find('settings-button'): no match
+[ 30.19s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 32.73s] find('close-popup'): no match
+[ 35.38s] find('panel-close'): no match
+[ 37.82s] find('settings-close'): no match
+[ 37.82s] wait(2000ms)
+[ 39.87s] find('star-hud'): 1 match(es) at (128, 97)
+[ 41.71s] find('settings-button'): no match
+[ 41.86s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 44.26s] find('close-popup'): no match
+[ 46.92s] find('panel-close'): no match
+[ 49.35s] find('settings-close'): no match
+[ 49.35s] wait(2000ms)
+[ 51.40s] find('star-hud'): 1 match(es) at (128, 97)
+[ 53.25s] find('settings-button'): no match
+[ 53.40s] isAdShowing(): no ad (IWUnityPlayerActivity in front)

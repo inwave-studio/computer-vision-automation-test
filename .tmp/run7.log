@@ -1,0 +1,16 @@
+[  0.16s] session: starting testcase 'test_general.py'
+[  0.30s] session: device 24650dee (1080x2400)
+[  1.53s] screen: live stream 864x1920 via scrcpy (scaled from 1080x2400)
+[  1.53s] open(com.amanotes.beathopper): launching app
+[  7.54s] find('star-hud'): 1 match(es) at (201, 155)
+[ 12.34s] find('settings-button'): no match
+[ 12.51s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 17.84s] find('close-popup'): no match
+[ 24.68s] find('panel-close'): no match
+[ 31.45s] find('settings-close'): no match
+[ 31.45s] wait(2000ms)
+[ 33.64s] find('star-hud'): 1 match(es) at (201, 155)
+[ 38.59s] find('settings-button'): no match
+[ 38.76s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 44.08s] find('close-popup'): no match
+[ 50.80s] find('panel-close'): no match

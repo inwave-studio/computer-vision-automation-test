@@ -1,0 +1,82 @@
+[  0.17s] session: starting testcase 'test_shopball.py'
+[  0.32s] session: device 24650dee (1080x2400)
+[  1.91s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.91s] open(com.amanotes.beathopper): launching app
+[  4.93s] find('star-hud'): 1 match(es) at (175, 97)
+[  7.14s] find('settings-button'): 1 match(es) at (480, 102)
+[  8.57s] find('event-close'): no match
+[  8.57s] wait(1500ms)
+[ 10.13s] find('star-hud'): 1 match(es) at (175, 97)
+[ 10.21s] find('settings-button'): 1 match(es) at (480, 102)
+[ 11.60s] find('event-close'): no match
+[ 11.60s] wait(1500ms)
+[ 13.15s] find('star-hud'): 1 match(es) at (175, 97)
+[ 13.23s] find('settings-button'): 1 match(es) at (480, 102)
+[ 14.22s] find('event-close'): no match
+[ 14.22s] wait(1500ms)
+[ 15.78s] find('star-hud'): 1 match(es) at (175, 97)
+[ 15.87s] find('settings-button'): 1 match(es) at (480, 102)
+[ 17.26s] find('event-close'): no match
+[ 17.26s] wait(1500ms)
+[ 18.81s] find('star-hud'): 1 match(es) at (175, 97)
+[ 18.90s] find('settings-button'): 1 match(es) at (480, 102)
+[ 20.30s] find('event-close'): no match
+  PASS  test_shopball.py :: Mở app và vào được màn hình Home
+[ 21.73s] find('ball-equipped'): no match
+[ 21.91s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 23.29s] find('event-close'): no match
+[ 25.65s] find('close-popup'): no match
+[ 27.76s] find('settings-close'): no match
+[ 30.42s] find('tab-ball'): 1 match(es) at (205, 1155)
+[ 30.42s] tap(1 element(s)): tapping (407,2310)  [2651ms since frame]
+[ 30.56s] waitUntil(màn hình Shop Ball): waiting (optional) up to 12000ms
+[ 32.01s] find('ball-equipped'): no match
+[ 33.36s] find('ball-equipped'): 1 match(es) at (118, 647)
+[ 33.36s] waitUntil(màn hình Shop Ball): satisfied after 2 check(s)
+  PASS  test_shopball.py :: Mở được tab Shop Ball
+[ 33.42s] find('ball-equipped'): 1 match(es) at (118, 647)
+  PASS  test_shopball.py :: Ball preview: đúng một quả đang trang bị (1)
+[ 34.56s] find('ball-lock'): 7 match(es) at (247, 664), (374, 664), (120, 917), (501, 664)...
+  PASS  test_shopball.py :: Shop Ball hiển thị ball đang khoá (7 quả)
+[ 34.61s] find('ball-equipped'): 1 match(es) at (118, 647)
+[ 34.61s] doubleTap(ball-equipped): double-tapping (234,1294)  [53ms since frame]
+[ 34.97s] wait(2000ms)
+[ 37.02s] find('ball-equipped'): 1 match(es) at (118, 647)
+  PASS  test_shopball.py :: Ball - Chọn nhanh: double tap vào ball sở hữu giữ trạng thái trang bị
+[ 37.08s] find('ball-lock'): 7 match(es) at (247, 664), (374, 664), (120, 917), (501, 664)...
+[ 37.08s] tap(ball-lock): tapping (490,1328)  [52ms since frame]
+[ 37.22s] wait(2500ms)
+[ 41.19s] findText(['kim cương', 'GEM PACKS', 'diamond', 'Không đủ', 'not enough']): not found
+[ 41.90s] findText(['xem quảng cáo', 'watch ad', 'xem video']): found 'Xem quang cao' at (385, 1043)
+  PASS  test_shopball.py :: Ball khoá: mở popup mua bằng diamond hoặc unlock bằng ads
+[ 42.06s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 44.50s] find('close-popup'): no match
+[ 46.96s] find('settings-close'): no match
+  SKIP  Ball - unlock by VIP - cần mua VIP thật
+  SKIP  Ball - obtain via special events - cần event đang chạy
+  SKIP  Ball - purchase thành công - cần đủ diamond / IAP sandbox
+[ 47.38s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 48.37s] find('event-close'): no match
+[ 50.86s] find('close-popup'): no match
+[ 53.33s] find('settings-close'): no match
+[ 53.49s] find('star-hud'): 1 match(es) at (128, 97)
+[ 56.02s] find('settings-button'): no match
+[ 57.58s] find('btnAutoplayClose'): no match
+[ 60.86s] find('tab-home'): 1 match(es) of 2 variants at (343, 1156)
+[ 63.28s] find('close-popup'): no match
+[ 63.28s] tap(1 element(s)): tapping (681,2312)  [2419ms since frame]
+[ 63.42s] wait(1500ms)
+[ 64.98s] find('star-hud'): 1 match(es) at (175, 97)
+[ 65.07s] find('settings-button'): 1 match(es) at (480, 102)
+[ 66.41s] find('event-close'): no match
+[ 66.57s] find('star-hud'): 1 match(es) at (175, 97)
+[ 66.66s] find('settings-button'): 1 match(es) at (480, 102)
+[ 67.63s] find('event-close'): no match
+[ 67.63s] waitUntil(home HUD): waiting (optional) up to 10000ms
+[ 67.69s] find('star-hud'): 1 match(es) at (175, 97)
+[ 67.79s] find('settings-button'): 1 match(es) at (480, 102)
+[ 68.77s] find('event-close'): no match
+[ 68.77s] waitUntil(home HUD): satisfied after 1 check(s)
+  PASS  test_shopball.py :: Kết thúc: quay về được Home
+
+TESTCASE test_shopball.py: PASSED  (7/7 assertions passed, 3 optional step(s) skipped)

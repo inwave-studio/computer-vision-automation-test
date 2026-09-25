@@ -1,0 +1,505 @@
+[  0.18s] session: starting testcase 'test_general.py'
+[  0.36s] session: device 24650dee (1080x2400)
+[  1.62s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.62s] open(com.amanotes.beathopper): launching app
+[  4.31s] find('star-hud'): no match
+[  4.52s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[  7.28s] find('close-popup'): 1 match(es) at (270, 864)
+[  7.28s] tap(1 element(s)): tapping (536,1728)  [2758ms since frame]
+[  7.42s] wait(2000ms)
+[ 11.68s] find('star-hud'): no match
+[ 11.81s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 14.50s] find('close-popup'): no match
+[ 17.25s] find('panel-close'): no match
+[ 19.98s] find('settings-close'): 1 match(es) at (61, 106)
+[ 19.98s] tap(1 element(s)): tapping (121,212)  [2731ms since frame]
+[ 20.13s] wait(2000ms)
+[ 24.31s] find('star-hud'): 1 match(es) at (175, 97)
+[ 26.50s] find('settings-button'): 1 match(es) at (480, 102)
+[ 26.50s] wait(1500ms)
+[ 28.06s] find('star-hud'): 1 match(es) at (175, 97)
+[ 28.15s] find('settings-button'): 1 match(es) at (480, 102)
+[ 28.15s] wait(1500ms)
+[ 29.70s] find('star-hud'): 1 match(es) at (175, 97)
+[ 29.79s] find('settings-button'): 1 match(es) at (480, 102)
+[ 29.79s] wait(1500ms)
+[ 31.35s] find('star-hud'): 1 match(es) at (175, 97)
+[ 31.43s] find('settings-button'): 1 match(es) at (480, 102)
+[ 31.43s] wait(1500ms)
+[ 32.98s] find('star-hud'): 1 match(es) at (175, 97)
+[ 33.07s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_general.py :: M? app và vào ???c màn hình Home
+[ 36.03s] find('profile-button'): 1 match(es) at (62, 105)
+  PASS  test_general.py :: Home header: profile button hi?n th?
+[ 36.09s] find('star-hud'): 1 match(es) at (175, 97)
+  PASS  test_general.py :: Home header: star HUD hi?n th?
+[ 37.73s] find('gem-hud'): 1 match(es) at (315, 96)
+  PASS  test_general.py :: Home header: gem HUD hi?n th?
+[ 39.04s] find('vip-button'): 1 match(es) at (272, 150)
+  PASS  test_general.py :: Home header: VIP button hi?n th?
+[ 41.15s] find('vip-mission'): 1 match(es) at (59, 197)
+  PASS  test_general.py :: Home header: VIP mission hi?n th?
+[ 41.24s] find('settings-button'): 1 match(es) at (480, 102)
+  PASS  test_general.py :: Home header: Setting button hi?n th?
+[ 44.32s] find('tab-shop'): 1 match(es) at (59, 1155)
+  PASS  test_general.py :: Home header: Shop tab hi?n th?
+[ 47.05s] find('tab-ball'): 1 match(es) at (205, 1155)
+  PASS  test_general.py :: Home header: Ball tab hi?n th?
+[ 49.90s] find('tab-discover'): 1 match(es) at (470, 1155)
+  PASS  test_general.py :: Home header: Discover tab hi?n th?
+[ 49.96s] find('star-hud'): 1 match(es) at (175, 97)
+[ 51.49s] readText(4 element(s)): '0'
+[ 51.56s] find('gem-hud'): 1 match(es) at (315, 96)
+[ 52.47s] readText(4 element(s)): '35 +'
+  PASS  test_general.py :: Star HUD ??c ???c s? (=0)
+  PASS  test_general.py :: Gem HUD ??c ???c s? (=35)
+[ 52.47s] kill(com.amanotes.beathopper): force-stopping app
+[ 52.82s] open(com.amanotes.beathopper): launching app
+[ 54.54s] find('star-hud'): no match
+[ 54.67s] isAdShowing(): no ad (unknown in front)
+[ 57.36s] find('close-popup'): no match
+[ 60.38s] find('panel-close'): no match
+[ 62.50s] find('settings-close'): no match
+[ 62.50s] wait(2000ms)
+[ 65.28s] find('star-hud'): no match
+[ 65.64s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 68.31s] find('close-popup'): no match
+[ 71.09s] find('panel-close'): no match
+[ 73.59s] find('settings-close'): no match
+[ 73.59s] wait(2000ms)
+[ 76.38s] find('star-hud'): no match
+[ 76.52s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 79.16s] find('close-popup'): no match
+[ 81.96s] find('panel-close'): no match
+[ 84.54s] find('settings-close'): no match
+[ 84.54s] wait(2000ms)
+[ 87.39s] find('star-hud'): no match
+[ 87.56s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 90.75s] find('close-popup'): no match
+[ 93.63s] find('panel-close'): no match
+[ 95.93s] find('settings-close'): no match
+[ 95.93s] wait(2000ms)
+[ 98.68s] find('star-hud'): no match
+[ 98.83s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[101.30s] find('close-popup'): no match
+[103.79s] find('panel-close'): no match
+[106.16s] find('settings-close'): no match
+[106.16s] wait(2000ms)
+[108.93s] find('star-hud'): no match
+[109.10s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[111.66s] find('close-popup'): no match
+[114.19s] find('panel-close'): no match
+[116.52s] find('settings-close'): no match
+[116.52s] wait(2000ms)
+[119.24s] find('star-hud'): no match
+[119.41s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[121.83s] find('close-popup'): no match
+[124.32s] find('panel-close'): no match
+[126.63s] find('settings-close'): no match
+[126.63s] wait(2000ms)
+[129.36s] find('star-hud'): no match
+[129.51s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[131.94s] find('close-popup'): no match
+[134.45s] find('panel-close'): no match
+[136.83s] find('settings-close'): no match
+[136.83s] wait(2000ms)
+[139.54s] find('star-hud'): no match
+[139.69s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[142.33s] find('close-popup'): no match
+[144.84s] find('panel-close'): no match
+[147.12s] find('settings-close'): no match
+[147.12s] wait(2000ms)
+[149.84s] find('star-hud'): no match
+[150.01s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[152.45s] find('close-popup'): no match
+[154.99s] find('panel-close'): no match
+[157.28s] find('settings-close'): no match
+[157.28s] wait(2000ms)
+[160.00s] find('star-hud'): no match
+[160.14s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[162.56s] find('close-popup'): no match
+[165.06s] find('panel-close'): no match
+[167.37s] find('settings-close'): no match
+[167.37s] wait(2000ms)
+[170.10s] find('star-hud'): no match
+[170.26s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[172.69s] find('close-popup'): no match
+[175.19s] find('panel-close'): no match
+[177.52s] find('settings-close'): no match
+[177.52s] wait(2000ms)
+[180.26s] find('star-hud'): no match
+[180.42s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[182.91s] find('close-popup'): no match
+[185.50s] find('panel-close'): no match
+[187.89s] find('settings-close'): no match
+[187.89s] wait(2000ms)
+[190.63s] find('star-hud'): no match
+[190.78s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[193.19s] find('close-popup'): no match
+[195.71s] find('panel-close'): no match
+[198.08s] find('settings-close'): no match
+[198.08s] wait(2000ms)
+[200.79s] find('star-hud'): no match
+[200.96s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[203.36s] find('close-popup'): no match
+[205.89s] find('panel-close'): no match
+[208.18s] find('settings-close'): no match
+[208.18s] wait(2000ms)
+[210.89s] find('star-hud'): no match
+[211.06s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[213.49s] find('close-popup'): no match
+[216.03s] find('panel-close'): no match
+[218.43s] find('settings-close'): no match
+[218.43s] wait(2000ms)
+[221.21s] find('star-hud'): no match
+[221.37s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[224.13s] find('close-popup'): no match
+[226.76s] find('panel-close'): no match
+[229.07s] find('settings-close'): no match
+[229.07s] wait(2000ms)
+[231.82s] find('star-hud'): no match
+[231.98s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[234.56s] find('close-popup'): no match
+[237.29s] find('panel-close'): no match
+[239.62s] find('settings-close'): no match
+[239.62s] wait(2000ms)
+[242.37s] find('star-hud'): no match
+[242.55s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[244.98s] find('close-popup'): no match
+[247.47s] find('panel-close'): no match
+[249.76s] find('settings-close'): no match
+[249.76s] wait(2000ms)
+[252.48s] find('star-hud'): no match
+[252.65s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[255.08s] find('close-popup'): no match
+[257.62s] find('panel-close'): no match
+[260.00s] find('settings-close'): no match
+[260.00s] wait(2000ms)
+[262.72s] find('star-hud'): no match
+[262.88s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[265.38s] find('close-popup'): no match
+[267.95s] find('panel-close'): no match
+[270.27s] find('settings-close'): no match
+[270.27s] wait(2000ms)
+[272.98s] find('star-hud'): no match
+[273.15s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[275.63s] find('close-popup'): no match
+[278.16s] find('panel-close'): no match
+[280.46s] find('settings-close'): no match
+[280.46s] wait(2000ms)
+[283.22s] find('star-hud'): no match
+[283.39s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[285.84s] find('close-popup'): no match
+[288.34s] find('panel-close'): no match
+[290.66s] find('settings-close'): no match
+[290.66s] wait(2000ms)
+[293.47s] find('star-hud'): no match
+[293.64s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[296.31s] find('close-popup'): no match
+[299.31s] find('panel-close'): no match
+[302.06s] find('settings-close'): no match
+[302.06s] wait(2000ms)
+[304.97s] find('star-hud'): no match
+[305.10s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[307.90s] find('close-popup'): no match
+[310.79s] find('panel-close'): no match
+[313.48s] find('settings-close'): no match
+[313.48s] wait(2000ms)
+[316.28s] find('star-hud'): no match
+[316.46s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[319.22s] find('close-popup'): no match
+[322.41s] find('panel-close'): no match
+[325.30s] find('settings-close'): no match
+[325.30s] wait(2000ms)
+[328.13s] find('star-hud'): no match
+[328.27s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[331.30s] find('close-popup'): no match
+[334.52s] find('panel-close'): no match
+[337.35s] find('settings-close'): no match
+[337.35s] wait(2000ms)
+[340.17s] find('star-hud'): no match
+[340.34s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[343.23s] find('close-popup'): no match
+[346.39s] find('panel-close'): no match
+[348.90s] find('settings-close'): no match
+[348.90s] wait(2000ms)
+[351.65s] find('star-hud'): no match
+[351.81s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[354.40s] find('close-popup'): no match
+[357.03s] find('panel-close'): no match
+[359.60s] find('settings-close'): no match
+[359.60s] wait(2000ms)
+[362.36s] find('star-hud'): no match
+[362.52s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[365.01s] find('close-popup'): no match
+[367.66s] find('panel-close'): no match
+[370.00s] find('settings-close'): no match
+[370.00s] wait(2000ms)
+[372.74s] find('star-hud'): no match
+  FAIL  test_general.py :: M? l?i app sau khi kill
+[373.47s] find('star-hud'): no match
+[374.07s] find('gem-hud'): 1 match(es) at (106, 102)
+[375.29s] readText(4 element(s)): ''
+  FAIL  test_general.py :: Star gi? nguyên sau khi kill app (0 -> None)
+  FAIL  test_general.py :: Gem gi? nguyên sau khi kill app (35 -> None)
+[375.29s] waitUntil(songlist n?p xong): waiting (optional) up to 20000ms
+[377.70s] find('song-badge'): 1 match(es) at (69, 924)
+[380.12s] find('song-badge'): no match
+[382.56s] find('song-badge'): no match
+[382.86s] find('song-badge'): 1 match(es) at (69, 924)
+[385.29s] find('song-badge'): no match
+[387.73s] find('song-badge'): no match
+[390.15s] find('song-badge'): no match
+[390.46s] find('song-badge'): 1 match(es) at (69, 924)
+[393.01s] find('song-badge'): no match
+[393.32s] find('song-badge'): 1 match(es) at (79, 924)
+[395.87s] find('song-badge'): no match
+  SKIP  waitUntil(songlist n?p xong) - not seen within 20000ms
+[400.82s] find('song-badge'): 1 match(es) at (78, 924) (attempt 3/4)
+  FAIL  test_general.py :: Songlist hi?n th? nhi?u bài hát (th?y 1)
+[402.77s] find('song-ad-lock'): no match
+  FAIL  test_general.py :: Hi?n th? ?úng d?ng lock song (0 bài khoá b?i ads)
+[403.89s] scrollVerticle(-60): scrolling down 60% of height  [1091ms since frame]
+[404.42s] wait(1200ms)
+[405.62s] scrollVerticle(-60): scrolling down 60% of height  [2825ms since frame]
+[406.18s] wait(1200ms)
+[407.38s] scrollVerticle(-60): scrolling down 60% of height  [4584ms since frame]
+[407.93s] wait(1200ms)
+[409.13s] scrollVerticle(-60): scrolling down 60% of height  [6331ms since frame]
+[409.67s] wait(1200ms)
+  FAIL  test_general.py :: Kéo t?i cu?i danh sách load thêm bài hát (0 m?c m?i)
+[411.81s] scrollVerticle(60): scrolling up 60% of height  [907ms since frame]
+[412.34s] wait(400ms)
+[412.74s] scrollVerticle(60): scrolling up 60% of height  [1841ms since frame]
+[413.29s] wait(400ms)
+[413.69s] scrollVerticle(60): scrolling up 60% of height  [2791ms since frame]
+[414.22s] wait(400ms)
+[414.62s] scrollVerticle(60): scrolling up 60% of height  [3717ms since frame]
+[415.16s] wait(400ms)
+[415.56s] scrollVerticle(60): scrolling up 60% of height  [4661ms since frame]
+[416.13s] wait(400ms)
+[416.53s] scrollVerticle(60): scrolling up 60% of height  [5630ms since frame]
+[417.06s] wait(400ms)
+[417.47s] wait(1500ms)
+[419.10s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[421.57s] find('close-popup'): no match
+[424.26s] find('settings-close'): no match
+  PASS  test_general.py :: Song info: ??c ???c thông tin trên card (16 dòng)
+[435.17s] find('song-badge'): no match after 4 attempts
+[443.31s] find('song-ad-lock'): no match after 4 attempts
+[443.61s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[446.11s] find('close-popup'): no match
+[448.67s] find('settings-close'): no match
+[449.42s] find('star-hud'): no match
+[450.60s] find('btnAutoplayClose'): no match
+[451.45s] findText(['Trang ch?', 'Home']): not found
+[451.45s] kill(com.amanotes.beathopper): force-stopping app
+[451.76s] open(com.amanotes.beathopper): launching app
+[453.53s] find('star-hud'): no match
+[453.74s] isAdShowing(): no ad (unknown in front)
+[456.15s] find('close-popup'): no match
+[458.83s] find('panel-close'): no match
+[460.76s] find('settings-close'): no match
+[460.76s] wait(2000ms)
+[462.82s] find('star-hud'): 1 match(es) at (174, 97)
+[462.90s] find('settings-button'): 1 match(es) at (480, 102)
+[462.90s] wait(1500ms)
+[464.47s] find('star-hud'): 1 match(es) at (175, 97)
+[464.55s] find('settings-button'): 1 match(es) at (480, 102)
+[464.55s] wait(1500ms)
+[466.77s] find('star-hud'): no match
+[467.50s] find('star-hud'): no match
+[467.72s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[470.18s] find('close-popup'): no match
+[472.69s] find('panel-close'): no match
+[475.00s] find('settings-close'): no match
+[475.00s] wait(2000ms)
+[477.71s] find('star-hud'): no match
+[477.89s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[480.33s] find('close-popup'): no match
+[483.06s] find('panel-close'): no match
+[485.57s] find('settings-close'): no match
+[485.57s] wait(2000ms)
+[488.41s] find('star-hud'): no match
+[488.57s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[491.24s] find('close-popup'): no match
+[493.89s] find('panel-close'): no match
+[496.41s] find('settings-close'): no match
+[496.41s] wait(2000ms)
+[499.19s] find('star-hud'): no match
+[499.36s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[501.85s] find('close-popup'): no match
+[504.39s] find('panel-close'): no match
+[506.76s] find('settings-close'): no match
+[506.76s] wait(2000ms)
+[509.50s] find('star-hud'): no match
+[509.66s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[512.07s] find('close-popup'): no match
+[514.22s] find('panel-close'): no match
+[516.55s] find('settings-close'): no match
+[516.55s] wait(2000ms)
+[519.28s] find('star-hud'): no match
+[519.44s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[521.99s] find('close-popup'): no match
+[524.55s] find('panel-close'): no match
+[526.85s] find('settings-close'): no match
+[526.85s] wait(2000ms)
+[529.56s] find('star-hud'): no match
+[529.73s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[532.20s] find('close-popup'): no match
+[534.77s] find('panel-close'): no match
+[537.12s] find('settings-close'): no match
+[537.12s] wait(2000ms)
+[539.89s] find('star-hud'): no match
+[540.06s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[542.78s] find('close-popup'): no match
+[545.48s] find('panel-close'): no match
+[547.96s] find('settings-close'): no match
+[547.96s] wait(2000ms)
+[550.70s] find('star-hud'): no match
+[550.88s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[553.34s] find('close-popup'): no match
+[555.94s] find('panel-close'): no match
+[558.27s] find('settings-close'): no match
+[558.27s] wait(2000ms)
+[560.99s] find('star-hud'): no match
+[561.16s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[563.61s] find('close-popup'): no match
+[566.16s] find('panel-close'): no match
+[568.48s] find('settings-close'): no match
+[568.48s] wait(2000ms)
+[571.21s] find('star-hud'): no match
+[571.38s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[573.97s] find('close-popup'): no match
+[576.67s] find('panel-close'): no match
+[578.99s] find('settings-close'): no match
+[578.99s] wait(2000ms)
+[581.73s] find('star-hud'): no match
+[581.86s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[584.28s] find('close-popup'): no match
+[586.87s] find('panel-close'): no match
+[589.19s] find('settings-close'): no match
+[589.19s] wait(2000ms)
+[591.91s] find('star-hud'): no match
+[592.08s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[594.50s] find('close-popup'): no match
+[597.00s] find('panel-close'): no match
+[599.27s] find('settings-close'): no match
+[599.27s] wait(2000ms)
+[601.99s] find('star-hud'): no match
+[602.16s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[604.63s] find('close-popup'): no match
+[607.14s] find('panel-close'): no match
+[609.53s] find('settings-close'): no match
+[609.53s] wait(2000ms)
+[612.25s] find('star-hud'): no match
+[612.42s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[615.01s] find('close-popup'): no match
+[617.65s] find('panel-close'): no match
+[620.01s] find('settings-close'): no match
+[620.01s] wait(2000ms)
+[622.76s] find('star-hud'): no match
+[622.94s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[625.39s] find('close-popup'): no match
+[628.00s] find('panel-close'): no match
+[630.40s] find('settings-close'): no match
+[630.40s] wait(2000ms)
+[633.16s] find('star-hud'): no match
+[633.37s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[635.87s] find('close-popup'): no match
+[638.46s] find('panel-close'): no match
+[640.86s] find('settings-close'): no match
+[640.86s] wait(2000ms)
+[643.61s] find('star-hud'): no match
+[643.75s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[646.40s] find('close-popup'): no match
+[649.01s] find('panel-close'): no match
+[651.35s] find('settings-close'): no match
+[651.35s] wait(2000ms)
+[654.10s] find('star-hud'): no match
+[654.26s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[656.76s] find('close-popup'): no match
+[659.42s] find('panel-close'): no match
+[661.80s] find('settings-close'): no match
+[661.80s] wait(2000ms)
+[664.58s] find('star-hud'): no match
+[664.70s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[667.21s] find('close-popup'): no match
+[669.78s] find('panel-close'): no match
+[672.20s] find('settings-close'): no match
+[672.20s] wait(2000ms)
+[674.95s] find('star-hud'): no match
+[675.11s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[677.74s] find('close-popup'): no match
+[680.60s] find('panel-close'): no match
+[683.38s] find('settings-close'): no match
+[683.38s] wait(2000ms)
+[686.26s] find('star-hud'): no match
+[686.42s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[689.08s] find('close-popup'): no match
+[691.89s] find('panel-close'): no match
+[694.27s] find('settings-close'): no match
+[694.27s] wait(2000ms)
+[697.05s] find('star-hud'): no match
+[697.20s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[699.93s] find('close-popup'): no match
+[702.85s] find('panel-close'): no match
+[705.78s] find('settings-close'): no match
+[705.78s] wait(2000ms)
+[708.72s] find('star-hud'): no match
+[708.88s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[711.94s] find('close-popup'): no match
+[715.38s] find('panel-close'): no match
+[718.08s] find('settings-close'): no match
+[718.08s] wait(2000ms)
+[720.83s] find('star-hud'): no match
+[720.97s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[723.42s] find('close-popup'): no match
+[725.97s] find('panel-close'): no match
+[728.36s] find('settings-close'): no match
+[728.36s] wait(2000ms)
+[731.08s] find('star-hud'): no match
+[731.24s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[733.84s] find('close-popup'): no match
+[736.36s] find('panel-close'): no match
+[738.68s] find('settings-close'): no match
+[738.68s] wait(2000ms)
+[741.44s] find('star-hud'): no match
+[741.60s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[744.11s] find('close-popup'): no match
+[746.67s] find('panel-close'): no match
+[749.01s] find('settings-close'): no match
+[749.01s] wait(2000ms)
+[751.82s] find('star-hud'): no match
+[751.83s] isAdShowing(): no ad (unknown in front)
+[754.30s] find('close-popup'): no match
+[756.81s] find('panel-close'): no match
+[759.16s] find('settings-close'): no match
+[759.16s] wait(2000ms)
+[761.92s] find('star-hud'): no match
+[762.66s] find('star-hud'): no match
+[763.81s] find('btnAutoplayClose'): no match
+[764.58s] findText(['Trang ch?', 'Home']): not found
+[764.58s] kill(com.amanotes.beathopper): force-stopping app
+Traceback (most recent call last):
+  File "D:\Projects\AndroidAutoBot\.agent\Smoke\test_general.py", line 355, in <module>
+    back_to_home()
+  File "D:\Projects\AndroidAutoBot\.agent\Smoke\test_general.py", line 138, in back_to_home
+    kill(app_id)
+  File "D:\Projects\AndroidAutoBot\autoplay\__init__.py", line 109, in kill
+    return session().kill(app_id)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AndroidAutoBot\autoplay\session.py", line 226, in kill
+    self.device.kill_app(app_id)
+  File "D:\Projects\AndroidAutoBot\autoplay\device.py", line 117, in kill_app
+    self.shell("am", "force-stop", app_id)
+  File "D:\Projects\AndroidAutoBot\autoplay\device.py", line 45, in shell
+    return self.run("shell", *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AndroidAutoBot\autoplay\device.py", line 41, in run
+    raise AdbError(f"adb {' '.join(args)} failed: {err}")
+autoplay.device.AdbError: adb shell am force-stop com.amanotes.beathopper failed: 
+[764.62s] aborted: AdbError: adb shell am force-stop com.amanotes.beathopper failed: 
+
+TESTCASE test_general.py: FAILED  (13/19 assertions passed, 1 optional step(s) skipped)
+  aborted: AdbError: adb shell am force-stop com.amanotes.beathopper failed: 

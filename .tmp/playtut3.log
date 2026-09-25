@@ -1,0 +1,169 @@
+[  0.17s] session: starting testcase 'test_playtut.py'
+[  0.33s] session: device 24650dee (1080x2400)
+[  1.49s] screen: live stream 544x1200 via scrcpy (scaled from 1080x2400)
+[  1.49s] kill(com.amanotes.beathopper): force-stopping app
+[  1.74s] clear(com.amanotes.beathopper): clearing app storage
+[  2.41s] open(com.amanotes.beathopper): launching app
+[ 10.35s] find('splash-screen'): 1 match(es) at (272, 615) (attempt 2/4)
+  PASS  test_playtut.py :: splash screen is shown
+[ 10.35s] waitUntil(allow notifications prompt): waiting (optional) up to 15000ms
+[ 11.72s] findText(['notifications?', 'thông báo']): not found
+[ 12.63s] findText(['notifications?', 'thông báo']): not found
+[ 14.22s] findText(['notifications?', 'thông báo']): found 'Cho phep Tiles Hop guri thong bao' at (273, 911)
+[ 14.22s] waitUntil(allow notifications prompt): satisfied after 3 check(s)
+[ 15.17s] findText(['ALLOW', 'Cho phép']): found 'Cho phép' at (272, 1034)
+[ 15.17s] tap(text 'Cho phép'): tapping (540,2068)  [956ms since frame]
+[ 15.31s] waitUntil(premium offer popup): waiting (optional) up to 10000ms
+[ 16.80s] find('paywall'): no match
+[ 18.37s] find('paywall'): no match
+[ 19.96s] find('paywall'): 1 match(es) at (276, 914)
+[ 19.96s] waitUntil(premium offer popup): satisfied after 3 check(s)
+[ 22.53s] find('close-popup'): 1 match(es) at (64, 110)
+[ 22.53s] tap(1 element(s)): tapping (127,220)  [2563ms since frame]
+[ 22.74s] waitUntil(genre picker): waiting up to 10000ms
+[ 23.74s] findText(['genre', 'thể loại']): not found
+[ 24.54s] findText(['genre', 'thể loại']): not found
+[ 25.46s] findText(['genre', 'thể loại']): found 'Vui long chon it nhat 1 the loai' at (272, 910)
+[ 25.46s] waitUntil(genre picker): satisfied after 3 check(s)
+[ 28.08s] find('genre-btn'): 4 match(es) at (95, 699), (95, 574), (95, 449), (307, 574)
+  PASS  test_playtut.py :: Found Genre Buttons
+[ 28.08s] tap(genre-btn): tapping (189,898)  [2621ms since frame]
+TAP GENRE 2
+[ 28.21s] waitUntil(Continue button): waiting up to 10000ms
+[ 28.87s] findText(['Continue', 'Tiếp tục']): not found
+[ 29.76s] findText(['Continue', 'Tiếp tục']): found 'Tiep tuc' at (273, 926)
+[ 29.76s] waitUntil(Continue button): satisfied after 2 check(s)
+[ 29.76s] tap(text 'Tiep tuc'): tapping (542,1852)  [640ms since frame]
+[ 29.96s] wait(100ms)
+[ 30.71s] findText(['Prefer not to say', 'Không trả lời']): not found
+[ 30.71s] waitUntil(tutorial song screen): waiting up to 5000ms
+[ 31.38s] findText(["Let's play your first song", 'bài hát đầu tiên của bạn']): found 'Hay phat bai hat dau tien cua ban' at (272, 338)
+[ 31.38s] waitUntil(tutorial song screen): satisfied after 1 check(s)
+  PASS  test_playtut.py :: tutorial song screen is shown
+[ 33.39s] find('play-button'): 4 match(es) at (453, 802), (453, 684), (453, 447), (453, 566)
+  PASS  test_playtut.py :: at least 4 play buttons (found 4)
+tapping play button at index 0 (0-based)
+[ 33.39s] tap(play-button): tapping (899,1604)  [2007ms since frame]
+[ 33.53s] waitUntil(tutorial gameplay prepare): waiting up to 10000ms
+[ 35.82s] find('tile-normal'): no match
+[ 38.46s] find('tile-normal'): 1 match(es) at (288, 785)
+[ 38.46s] waitUntil(tutorial gameplay prepare): satisfied after 2 check(s)
+[ 38.46s] wait(100ms)
+[ 41.46s] find('white-ball'): 8 match(es) at (340, 747), (346, 775), (294, 691), (340, 191)...
+  PASS  test_playtut.py :: white ball is found
+[ 42.09s] findText('play'): found 'Auto-play' at (105, 1147)
+[ 42.09s] tap(text 'Auto-play'): tapping (208,2294)  [635ms since frame]
+[ 42.22s] wait(100ms)
+[ 44.19s] findText('Add fail point'): found 'Add fail point' at (415, 840) (attempt 2/4)
+[ 44.19s] tap(text 'Add fail point'): tapping (824,1680)  [1205ms since frame]
+[ 44.33s] wait(100ms)
+[ 46.02s] find('btnAutoplayClose'): 1 match(es) at (511, 78)
+[ 46.02s] tap(btnAutoplayClose): tapping (1014,156)  [1596ms since frame]
+[ 46.15s] wait(100ms)
+[ 46.25s] waitUntil(Drag instruction): waiting (optional) up to 10000ms
+[ 47.52s] findText(['Kéo để Điều khiển', 'Drag to control']): found 'Git va Keo de Dieu khien' at (272, 1080)
+[ 47.52s] waitUntil(Drag instruction): satisfied after 1 check(s)
+  PASS  test_playtut.py :: Drag instruction
+[ 47.53s] tap(8 element(s)): tapping (675,1494)  [1273ms since frame]
+[ 47.66s] wait(100ms)
+[ 47.76s] waitUntil(tutorial gameplay bounce on tiles): waiting up to 10000ms
+[ 48.25s] findText(['Bounce on Tiles', 'Nhảy trên VIÊN GẠCH']): not found
+[ 50.00s] findText(['Bounce on Tiles', 'Nhảy trên VIÊN GẠCH']): found 'Nhay tren VIEN GACH' at (258, 241)
+[ 50.00s] waitUntil(tutorial gameplay bounce on tiles): satisfied after 2 check(s)
+  PASS  test_playtut.py :: tutorial gameplay bounce on tiles is found
+[ 50.00s] waitUntil(result screen): waiting up to 180000ms
+[ 50.68s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 50.84s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 51.53s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 52.31s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 52.46s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 52.91s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 53.58s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 53.76s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 54.29s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 55.83s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 55.99s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 56.56s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 57.37s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 57.52s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 58.15s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 58.97s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 59.13s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 59.72s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 60.73s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 60.88s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 61.55s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 62.59s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 62.76s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 63.29s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 64.49s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 64.63s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 65.21s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 66.13s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 66.30s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 66.98s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 67.95s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 68.13s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 68.81s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 69.77s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 69.91s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 71.01s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 71.91s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 72.06s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 72.79s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 74.22s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 74.40s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 75.66s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 77.11s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 77.27s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 79.08s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 80.65s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 80.80s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 81.80s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 83.03s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 83.21s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 83.91s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 84.95s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 85.12s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 86.14s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 87.33s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 87.50s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 88.49s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 89.53s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 89.69s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 90.43s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 91.42s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 91.58s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 92.66s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 93.56s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 93.70s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[ 94.33s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): not found
+[ 96.23s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 96.41s] isAdShowing(): ad on screen - CompanionAdActivity
+[ 96.69s] wait(2000ms)
+[ 99.73s] findText(['Chơi tiếp', 'Đã hoàn thành']): not found
+[ 99.90s] isAdShowing(): no ad (IWUnityPlayerActivity in front)
+[100.78s] findText(['Cảm ơn đã xem quảng cáo', 'Thanks for watching']): found 'cam on da xem quang cao' at (272, 408)
+[103.43s] find('settings-close'): 1 match(es) at (269, 831)
+[103.43s] tap(1 element(s)): tapping (534,1662)  [2654ms since frame]
+[103.55s] wait(1500ms)
+[106.51s] findText(['Chơi tiếp', 'Đã hoàn thành']): found 'CHOI TIEP' at (289, 1119)
+[108.55s] find('song-badge'): 6 match(es) at (85, 579), (85, 465), (85, 693), (85, 807)...
+[110.88s] find('song-ad-lock'): 5 match(es) at (453, 1034), (453, 920), (453, 806), (453, 579)...
+[112.22s] find('song-play'): no match
+[112.22s] waitUntil(result screen): satisfied after 25 check(s)
+  PASS  test_playtut.py :: Chơi hết bài hướng dẫn và tới được result screen
+[112.27s] find('song-badge'): 6 match(es) at (87, 578), (87, 805), (87, 919), (87, 464)...
+[112.34s] find('song-ad-lock'): 5 match(es) at (453, 920), (453, 1034), (453, 579), (453, 806)...
+[114.09s] find('song-play'): no match
+[114.09s] scrollVerticle(-40): scrolling down 40% of height  [1748ms since frame]
+[114.63s] wait(1500ms)
+[116.13s] scrollVerticle(-40): scrolling down 40% of height  [3787ms since frame]
+[116.66s] wait(1500ms)
+[118.22s] find('song-badge'): 8 match(es) at (87, 301), (87, 869), (87, 642), (87, 74)...
+[118.27s] find('song-ad-lock'): 8 match(es) at (453, 870), (453, 529), (453, 643), (453, 188)...
+[119.56s] find('song-play'): no match
+  PASS  test_playtut.py :: Result screen cuộn xuống được
+  PASS  test_playtut.py :: Result screen: sau khi cuộn thấy ít nhất 1 song card (8 card)
+
+TESTCASE test_playtut.py: PASSED  (10/10 assertions passed)

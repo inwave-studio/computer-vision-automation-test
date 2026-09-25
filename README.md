@@ -110,7 +110,7 @@ viewer, a pipe).
 | `norm(x, y)` | `Position` | A resolution-independent point, `0..1` from the top-left |
 | `waitUntil(fn, timeout=10000, required=True)` | the truthy value, or `None` | Fails the testcase and stops on timeout; `required=False` marks an optional step, where a timeout just logs SKIP and returns `None` |
 | `wait(ms)` | session | Plain sleep |
-| `scrollVerticle(percent)` | session | Negative scrolls down, e.g. `-20` = 20% of height |
+| `scrollVerticle(percent)` | session | Negative scrolls the content down (finger swipes up), e.g. `-20` = 20% of height; the swipe is centred on the screen |
 | `scrollHorizontal(percent)` | session | Negative scrolls left |
 
 `Element` carries `.center`, `.bounds`, `.text`, `.score`, and is truthy when

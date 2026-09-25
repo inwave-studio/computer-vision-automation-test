@@ -56,6 +56,19 @@ AD_ACTIVITY_PATTERNS = (
     # Pangle / TikTok (ByteDance)
     "com.bytedance.sdk.openadsdk.activity",
     "com.bytedance.sdk.openadsdk.stub.activity",
+    # Bigo Ads - measured on the test device: the interstitial after a song
+    # plays and then ends on a CompanionAdActivity end card (app icon + "Xem
+    # thêm"). Unlisted, isAdShowing() read it as the game and closeAd()
+    # returned "no ad" while it sat on screen for good. The card has no close
+    # control: its ">" disc is a click-through (it opened Play Store), and
+    # only the back key dismisses it.
+    "sg.bigo.ads.api",
+    # Crackle - measured on the test device: the interstitial after the
+    # tutorial song runs in the game's own process as
+    # tech.crackle.core_sdk.ads.CrackleFullScreenActivity. Unlisted, it read
+    # as the game and closeAd() reported "no ad" with the ad still up. Its
+    # close is the white X disc in the top-left (`ad-close`).
+    "tech.crackle.core_sdk.ads",
     # AdColony
     "com.adcolony.sdk.adcolonyinterstitialactivity",
     "com.adcolony.sdk.adcolonyadviewactivity",
